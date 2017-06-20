@@ -4,9 +4,9 @@
   </head>
   <body>
     <a-scene>
-      <!--<a-asset-item id="Evonove" src="EvonoveWithoutGlass.dae"></a-asset-item>-->
-      <a-asset-item id="evo-obj" src="EvonoveWithoutGlass.obj"></a-asset-item>
+      <a-asset-item id="Evonove" src="EvonoveWithoutGlass.dae"></a-asset-item>
       <a-asset-item id="glass-obj" src="EvonoveGlass.obj"></a-asset-item>
+      <!--<a-asset-item id="evo-obj" src="EvonoveWhitoutGlass.obj"></a-asset-item>-->
       <a-mixin id="controller" super-hands controller-loaded sphere-collider="objects: #Evonove" teleport-controls></a-mixin>
       <a-mixin id="controller-loaded" static-body="shape: sphere; sphereRadius: 0.02;"></a-mixin>
       
@@ -15,7 +15,8 @@
     <a-entity hand-controls="left" mixin="controller"></a-entity>
     <a-entity hand-controls="right" mixin="controller"></a-entity>
 
-    <a-entity obj-model="obj: #glass-obj;" material="color: #00FFFA; transparent: true; opacity: 0.2;"></a-entity>
+    <a-entity obj-model="obj: #glass-obj;" material="color: #00FFFA; transparent: true; opacity: 0.1;"></a-entity>
+    <a-collada-model src="#Evonove"></a-collada-model>
 
     <a-sky color="black"></a-sky>
     </a-scene>
