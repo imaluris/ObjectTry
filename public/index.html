@@ -4,12 +4,11 @@
   </head>
   <body>
     <a-scene>
+    <a-assets>
       <a-asset-item id="Evonove" src="EvonoveWithoutGlass.dae"></a-asset-item>
       <a-asset-item id="glass-obj" src="EvonoveGlass.obj"></a-asset-item>
-      <!--<a-asset-item id="evo-obj" src="EvonoveWhitoutGlass.obj"></a-asset-item>-->
       <a-mixin id="controller" super-hands controller-loaded sphere-collider="objects: #Evonove" teleport-controls></a-mixin>
       <a-mixin id="controller-loaded" static-body="shape: sphere; sphereRadius: 0.02;"></a-mixin>
-      
     </a-assets>
     
     <a-entity hand-controls="left" mixin="controller"></a-entity>
