@@ -3,23 +3,27 @@
     <script src="js/app.js"></script>
   </head>
   <body>
-    <a-scene>
+    <a-scene physics="debug: true;">
     <a-assets>
-      <a-asset-item id="Evonove" src="EvonoveTry.dae"></a-asset-item>
       <a-asset-item id="glassTransp-obj" src="EvonoveGlassTransparent.obj"></a-asset-item>
       <a-asset-item id="glassOpaco-obj" src="EvonoveGlassOpaco.obj"></a-asset-item>
       <a-asset-item id="Maniglie-obj" src="ManiglieMetallo.obj"></a-asset-item>
-      <a-mixin id="controller" super-hands controller-loaded sphere-collider="objects: #Evonove" teleport-controls></a-mixin>
+      <a-asset-item id="monitor" src="MonitorEvonove.dae"></a-asset-item>
+      <a-asset-item id="evonove" src="EvonoveTry.dae"></a-asset-item>
+      <a-mixin id="controller" super-hands controller-loaded sphere-collider="objects: .cube, .sphere, .door" teleport-controls></a-mixin>
       <a-mixin id="controller-loaded" static-body="shape: sphere; sphereRadius: 0.02;"></a-mixin>
+
     </a-assets>
-    
-    <a-entity hand-controls="left" mixin="controller"></a-entity>
-    <a-entity hand-controls="right" mixin="controller"></a-entity>
+
+      <a-entity vive-controls="hand:left" mixin="controller"></a-entity>
+      <a-entity vive-controls="hand:right" mixin="controller"></a-entity>
 
     <a-entity obj-model="obj: #glassTransp-obj;" material="color: #87DFFF; transparent: true; opacity: 0.2;"></a-entity>
     <a-entity obj-model="obj: #glassOpaco-obj;" material="color: #87DFFF; transparent: false; opacity: 0.9;"></a-entity>
     <a-entity obj-model="obj: #Maniglie-obj;" material="color: #A5A5A5; metalness: 0.8;"></a-entity>
-    <a-collada-model src="#Evonove"></a-collada-model>
+    <a-collada-model src="#monitor"></a-collada-model>
+    <a-collada-model src="#evonove"></a-collada-model>
+
 
     <a-sky color="black"></a-sky>
     </a-scene>
