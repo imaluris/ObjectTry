@@ -3,27 +3,162 @@
     <script src="js/app.js"></script>
   </head>
   <body>
-    <a-scene physics="debug: true;">
+    <a-scene physics="debug: true">
     <a-assets>
+      <!-- controller -->
+      <a-mixin id="controller" super-hands sphere-collider="objects: #monitor, .cube" teleport-controls
+               static-body="shape: sphere; sphereRadius: 0.02;"></a-mixin>
+
+      
+      <!-- ASSETS PARETI -->
+      <a-asset-item id="muraIngresso" src="Pareti/PareteIngresso.dae"></a-asset-item>
+      <a-asset-item id="muraDestra" src="Pareti/PareteDestra.dae"></a-asset-item>
+      <a-asset-item id="muraFondo" src="Pareti/PareteFondo.dae"></a-asset-item>
+      <a-asset-item id="muraSinistraFondo" src="Pareti/PareteSinistraFondo.dae"></a-asset-item>
+      <a-asset-item id="muraSinistraInizio" src="Pareti/PareteSinistraInizio.dae"></a-asset-item>
+      <a-asset-item id="colonnaPareteDestra" src="Pareti/ColonnaPareteDestra.dae"></a-asset-item>
+      <!-- assets pareti cucina -->
+      <a-asset-item id="muraCucinaFondo" src="Pareti/PareteCucinaFondo.dae"></a-asset-item>
+      <a-asset-item id="muraCucinaSinistra" src="Pareti/PareteCucinaSinistra.dae"></a-asset-item>
+      <a-asset-item id="muraCucinaInizio" src="Pareti/PareteCucinaInizio.dae"></a-asset-item>
+      <!-- assets pareti bagno -->
+      <a-asset-item id="pareteWcCentrale" src="Pareti/PareteWcCentrale.dae"></a-asset-item>
+      <a-asset-item id="pareteBagnoCentrale" src="Pareti/PareteBagnoCentrale.dae"></a-asset-item>
+      <a-asset-item id="pareteBagnoDestra" src="Pareti/PareteBagnoDestra.dae"></a-asset-item>
+      <a-asset-item id="pareteBagnoInizio" src="Pareti/PareteBagnoInizio.dae"></a-asset-item>
+      <a-asset-item id="pareteBagnoSinistra" src="Pareti/PareteBagnoSinistra.dae"></a-asset-item>
+      <!-- assets pareti lavagna -->
+      <a-asset-item id="pareteLavagnaInizio" src="Pareti/PareteLavagnaInizio.dae"></a-asset-item>
+      <a-asset-item id="pareteLavagnaFine" src="Pareti/PareteLavagnaFine.dae"></a-asset-item>
+      <!-- assets pareti call e officina -->
+      <a-asset-item id="pareteCall" src="Pareti/PareteCall.dae"></a-asset-item>
+      <a-asset-item id="pareteOfficina" src="Pareti/PareteOfficina.dae"></a-asset-item>
+
+
+      <!-- ASSETS MOBILI FISSI -->
+      <!-- assets scrivanie ufficio -->
+      <a-asset-item id="scrivaniaUfficio1" src="MobiliFissi/ScrivaniaUfficio1.dae"></a-asset-item>
+      <a-asset-item id="scrivaniaUfficio2" src="MobiliFissi/ScrivaniaUfficio2.dae"></a-asset-item>
+      <a-asset-item id="scrivaniaUfficio3" src="MobiliFissi/ScrivaniaUfficio3.dae"></a-asset-item>
+      <a-asset-item id="scrivaniaUfficio4" src="MobiliFissi/ScrivaniaUfficio4.dae"></a-asset-item>
+      <a-asset-item id="separe1" src="MobiliFissi/Separe1.dae"></a-asset-item>
+      <a-asset-item id="separe2" src="MobiliFissi/Separe2.dae"></a-asset-item>
+      <a-asset-item id="separe3" src="MobiliFissi/Separe3.dae"></a-asset-item>
+      <a-asset-item id="separe4" src="MobiliFissi/Separe4.dae"></a-asset-item>
+      <!-- assets MobiliCucina -->
+      <a-asset-item id="mobileFrigo" src="MobiliFissi/MobileFrigo.dae"></a-asset-item>
+      <a-asset-item id="cucinaAltoFrigo" src="MobiliFissi/CucinaAltoFrigo.dae"></a-asset-item>
+      <a-asset-item id="mobileLavandino" src="MobiliFissi/MobileLavandino.dae"></a-asset-item>
+      <a-asset-item id="mobileSopraLavandino" src="MobiliFissi/MobileSopraLavandino.dae"></a-asset-item>
+      <a-asset-item id="tavoloPranzo" src="MobiliFissi/TavoloPranzo.dae"></a-asset-item>
+      <!-- assets Ingresso -->
+      <a-asset-item id="cosoIngresso" src="MobiliFissi/CosoIngresso.dae"></a-asset-item>
+      <a-asset-item id="mobileIngresso" src="MobiliFissi/MobileIngresso.dae"></a-asset-item>
+      <a-asset-item id="tavolinoIngresso" src="MobiliFissi/TavolinoIngresso.dae"></a-asset-item>
+      <!-- assets ufficio call -->
+      <a-asset-item id="armadioCall" src="MobiliFissi/ArmadioCall.dae"></a-asset-item>
+      <a-asset-item id="tavoloCall" src="MobiliFissi/TavoloCall.dae"></a-asset-item>
+      <!-- assets ufficio riunioni -->
+      <a-asset-item id="mobileRiunioni" src="MobiliFissi/MobileRiunioni.dae"></a-asset-item>
+      <a-asset-item id="tavoloRiunioni" src="MobiliFissi/TavoloRiunioni.dae"></a-asset-item>
+      <!-- assets officina -->
+      <a-asset-item id="mobileOfficina" src="MobiliFissi/MobileOfficina.dae"></a-asset-item>
+      <a-asset-item id="scrivaniaOfficina1" src="MobiliFissi/ScrivaniaOfficina1.dae"></a-asset-item>
+      <a-asset-item id="scrivaniaOfficina2" src="MobiliFissi/ScrivaniaOfficina2.dae"></a-asset-item>
+      <!--assets stanza lavagna-->
+      <a-asset-item id="mobileLavagna" src="MobiliFissi/MobileLavagna.dae"></a-asset-item>
+
+      <!--ASSETS DYNAMIC OBJECT-->
+      <!--<a-asset-item id="monitor1" src="DynamicObject/Monitor1.dae"></a-asset-item>
+      <a-asset-item id="monitor2" src="DynamicObject/Monitor2.dae"></a-asset-item>
+      <a-asset-item id="monitor3" src="DynamicObject/Monitor3.dae"></a-asset-item>
+      <a-asset-item id="monitor4" src="DynamicObject/Monitor4.dae"></a-asset-item>-->
+
+      <a-asset-item id="tastiera-obj" src="DynamicObject/Tastiera1.obj"></a-asset-item>
+
       <a-asset-item id="glassTransp-obj" src="EvonoveGlassTransparent.obj"></a-asset-item>
       <a-asset-item id="glassOpaco-obj" src="EvonoveGlassOpaco.obj"></a-asset-item>
       <a-asset-item id="Maniglie-obj" src="ManiglieMetallo.obj"></a-asset-item>
-      <a-asset-item id="monitor" src="MonitorEvonove.dae"></a-asset-item>
-      <a-asset-item id="evonove" src="EvonoveTry.dae"></a-asset-item>
-      <a-mixin id="controller" super-hands controller-loaded sphere-collider="objects: .cube, .sphere, .door" teleport-controls></a-mixin>
-      <a-mixin id="controller-loaded" static-body="shape: sphere; sphereRadius: 0.02;"></a-mixin>
+      
+      
 
     </a-assets>
 
-      <a-entity vive-controls="hand:left" mixin="controller"></a-entity>
-      <a-entity vive-controls="hand:right" mixin="controller"></a-entity>
+      <a-entity vive-controls="hand: left" mixin="controller"></a-entity>
+      <a-entity vive-controls="hand: right" mixin="controller"></a-entity>
 
+    
+    <a-entity obj-model="obj: #Maniglie-obj;" material="color: #A5A5A5; metalness: 0.8;"></a-entity>
+    <a-collada-model static-body src="#muraIngresso"></a-collada-model>
+    <a-collada-model static-body src="#muraDestra"></a-collada-model>
+    <a-collada-model static-body src="#muraFondo"></a-collada-model>
+    <a-collada-model static-body src="#muraSinistraInizio"></a-collada-model>
+    <a-collada-model static-body src="#colonnaPareteDestra"></a-collada-model>
+    <!-- pareti cucina -->
+    <a-collada-model static-body src="#muraSinistraFondo"></a-collada-model>
+    <a-collada-model static-body src="#muraCucinaFondo"></a-collada-model>
+    <a-collada-model static-body src="#muraCucinaSinistra"></a-collada-model>
+    <a-collada-model static-body src="#muraCucinaInizio"></a-collada-model>
+    <!-- pareti bagno -->
+    <a-collada-model static-body src="#pareteWcCentrale"></a-collada-model>
+    <a-collada-model static-body src="#pareteBagnoCentrale"></a-collada-model>
+    <a-collada-model static-body src="#pareteBagnoDestra"></a-collada-model>
+    <a-collada-model static-body src="#pareteBagnoInizio"></a-collada-model>
+    <a-collada-model static-body src="#pareteBagnoSinistra"></a-collada-model>
+    <!-- pareti lavagna -->
+    <a-collada-model static-body src="#pareteLavagnaInizio"></a-collada-model>
+    <a-collada-model static-body src="#pareteLavagnaFine"></a-collada-model>
+    <!-- pareti call e officina -->
+    <a-collada-model static-body src="#pareteCall"></a-collada-model>
+    <a-collada-model static-body src="#pareteOfficina"></a-collada-model>
+ 
+
+    <!-- MOBILI FISSI -->
+    <!-- scrivanie ufficio -->
+    <a-collada-model static-body src="#scrivaniaUfficio1"></a-collada-model>
+    <a-collada-model static-body src="#scrivaniaUfficio2"></a-collada-model>
+    <a-collada-model static-body src="#scrivaniaUfficio3"></a-collada-model>
+    <a-collada-model static-body src="#scrivaniaUfficio4"></a-collada-model>
+    <a-collada-model static-body src="#separe1"></a-collada-model>
+    <a-collada-model static-body src="#separe2"></a-collada-model>
+    <a-collada-model static-body src="#separe3"></a-collada-model>
+    <a-collada-model static-body src="#separe4"></a-collada-model>
+    <!-- Mobili cucina -->
+    <a-collada-model static-body src="#mobileFrigo"></a-collada-model>
+    <a-collada-model static-body src="#cucinaAltoFrigo"></a-collada-model>
+    <a-collada-model static-body src="#mobileLavandino"></a-collada-model>
+    <a-collada-model static-body src="#mobileSopraLavandino"></a-collada-model>
+    <a-collada-model static-body src="#tavoloPranzo"></a-collada-model>
+    <!-- assets Ingresso -->
+    <a-collada-model static-body src="#cosoIngresso"></a-collada-model>
+    <a-collada-model static-body src="#mobileIngresso"></a-collada-model>
+    <a-collada-model static-body src="#tavolinoIngresso"></a-collada-model>
+    <!-- ufficio call -->
+    <a-collada-model static-body src="#armadioCall"></a-collada-model>
+    <a-collada-model static-body src="#tavoloCall"></a-collada-model>
+     <!-- ufficio riunioni -->
+    <a-collada-model static-body src="#mobileRiunioni"></a-collada-model>
+    <a-collada-model static-body src="#tavoloRiunioni"></a-collada-model>
+    <!-- officina -->
+    <a-collada-model static-body src="#mobileOfficina"></a-collada-model>
+    <a-collada-model static-body src="#scrivaniaOfficina1"></a-collada-model>
+    <a-collada-model static-body src="#scrivaniaOfficina2"></a-collada-model>
+    <!--stanza lavagna-->
+    <a-collada-model static-body src="#mobileLavagna"></a-collada-model>
+    <!--vetri trasparenti-->
     <a-entity obj-model="obj: #glassTransp-obj;" material="color: #87DFFF; transparent: true; opacity: 0.2;"></a-entity>
     <a-entity obj-model="obj: #glassOpaco-obj;" material="color: #87DFFF; transparent: false; opacity: 0.9;"></a-entity>
-    <a-entity obj-model="obj: #Maniglie-obj;" material="color: #A5A5A5; metalness: 0.8;"></a-entity>
-    <a-collada-model src="#monitor"></a-collada-model>
-    <a-collada-model src="#evonove"></a-collada-model>
 
+
+    <a-collada-model src="#tastiera1" hoverable grabbable drag-droppable position="10 10 10" dynamic-body></a-collada-model>
+    <a-collada-model src="#tastiera2" hoverable grabbable drag-droppable position="-10 10 10" dynamic-body></a-collada-model>
+
+    <a-entity dynamic-body obj-model="obj: #tastiera-obj;"></a-entity>
+
+
+    <a-box class="cube" color="tomato" depth="1" height="1" width="0.5" position="10 20 0" hoverable grabbable drag-droppable dynamic-body></a-box>
+
+    <a-plane static-body rotation="-90 0 0" color="grey" repeat="50 50" width="100" height="100"></a-plane>
 
     <a-sky color="black"></a-sky>
     </a-scene>
