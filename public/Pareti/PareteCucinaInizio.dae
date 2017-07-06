@@ -5,14 +5,18 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f235283</authoring_tool>
     </contributor>
-    <created>2017-07-04T11:20:11</created>
-    <modified>2017-07-04T11:20:11</modified>
+    <created>2017-07-06T18:09:13</created>
+    <modified>2017-07-06T18:09:13</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
-  <library_images/>
+  <library_images>
+    <image id="esterno_jpg" name="esterno_jpg">
+      <init_from>esterno.jpg</init_from>
+    </image>
+  </library_images>
   <library_effects>
-    <effect id="PareteEsterna-effect">
+    <effect id="PareteInterno-effect">
       <profile_COMMON>
         <technique sid="common">
           <phong>
@@ -23,10 +27,46 @@
               <color sid="ambient">0 0 0 1</color>
             </ambient>
             <diffuse>
-              <color sid="diffuse">0.64 0.64 0.64 1</color>
+              <color sid="diffuse">0.528449 0.6194264 0.6016311 1</color>
             </diffuse>
             <specular>
-              <color sid="specular">0.0625 0.0625 0.0625 1</color>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Esterno-effect">
+      <profile_COMMON>
+        <newparam sid="esterno_jpg-surface">
+          <surface type="2D">
+            <init_from>esterno_jpg</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="esterno_jpg-sampler">
+          <sampler2D>
+            <source>esterno_jpg-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="esterno_jpg-sampler" texcoord="Cube_001-mesh-map"/>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
             </specular>
             <shininess>
               <float sid="shininess">50</float>
@@ -40,54 +80,78 @@
     </effect>
   </library_effects>
   <library_materials>
-    <material id="PareteEsterna-material" name="PareteEsterna">
-      <instance_effect url="#PareteEsterna-effect"/>
+    <material id="PareteInterno-material" name="PareteInterno">
+      <instance_effect url="#PareteInterno-effect"/>
+    </material>
+    <material id="Esterno-material" name="Esterno">
+      <instance_effect url="#Esterno-effect"/>
     </material>
   </library_materials>
   <library_geometries>
-    <geometry id="Cube_549-mesh" name="Cube.549">
+    <geometry id="PareteSinistra_001_001-mesh" name="PareteSinistra_001.001">
       <mesh>
-        <source id="Cube_549-mesh-positions">
-          <float_array id="Cube_549-mesh-positions-array" count="102">-0.5916081 -15.10139 -1 -0.5916081 -15.10139 0.7210271 -0.5530264 -17.10204 -1 -0.5916081 -17.10204 -1 -0.5530264 -17.10204 0.9990402 -0.5530264 -17.10204 0.7210271 -0.5916081 -17.10204 0.7210271 -0.5916081 -17.10204 0.9990402 -0.5916081 1.007286 -1 -0.5530264 1.007286 -1 -0.5530264 1.007286 0.7210271 -0.5916081 1.007286 0.7210271 -0.5530264 1.007286 0.9990402 -0.5916081 1.007286 0.9990402 -0.5530264 -4.350406 -1 -0.5530264 -11.53805 -1 -0.5530264 -4.350406 0.7210271 -0.5530264 -11.53805 0.7210271 -0.5916081 -11.53805 0.7210271 -0.5916081 -4.350406 0.7210271 -0.5916081 -11.53805 -1 -0.5916081 -4.350406 -1 -0.5530264 -11.53805 0.9990402 -0.5530264 -4.350406 0.9990402 -0.5916081 -4.350406 0.9990402 -0.5916081 -11.53805 0.9990402 -0.5530264 -17.10204 -0.1857674 -0.5530264 1.007286 -0.2034943 -0.5916081 1.007286 -0.2034943 -0.5530264 -11.53805 -0.2034943 -0.5530264 -4.350406 -0.2034943 -0.5916081 -11.53805 -0.2034943 -0.5916081 -4.350406 -0.2034943 -0.5916081 -15.10139 0.9989513</float_array>
+        <source id="PareteSinistra_001_001-mesh-positions">
+          <float_array id="PareteSinistra_001_001-mesh-positions-array" count="123">-0.5916081 -15.10139 -1 -0.5916081 -15.10139 0.7210271 -0.5530264 -17.10204 -1 -0.5916081 -17.10204 -1 -0.5530264 -17.10204 0.9990402 -0.5530264 -17.10204 0.7210271 -0.5916081 -17.10204 0.7210271 -0.5916081 -17.10204 0.9990402 -0.5916081 1.007286 -1 -0.5530264 1.007286 -1 -0.5530264 1.007286 0.7210271 -0.5916081 1.007286 0.7210271 -0.5530264 1.007286 0.9990402 -0.5916081 1.007286 0.9990402 -0.5530264 -4.350406 -1 -0.5530264 -11.53805 -1 -0.5530264 -4.350406 0.7210271 -0.5530264 -11.53805 0.7210271 -0.5916081 -11.53805 0.7210271 -0.5916081 -4.350406 0.7210271 -0.5916081 -11.53805 -1 -0.5916081 -4.350406 -1 -0.5530264 -11.53805 0.9990402 -0.5530264 -4.350406 0.9990402 -0.5916081 -4.350406 0.9990402 -0.5916081 -11.53805 0.9990402 -0.5530264 -17.10204 -0.1857674 -0.5530264 1.007286 -0.2034943 -0.5916081 1.007286 -0.2034943 -0.5530264 -11.53805 -0.2034943 -0.5530264 -4.350406 -0.2034943 -0.5916081 -11.53805 -0.2034943 -0.5916081 -4.350406 -0.2034943 -0.5530264 -11.53805 0.7210271 -0.5916081 -11.53805 0.7210271 -0.5530264 -11.53805 -0.2034943 -0.5916081 -11.53805 -0.2034943 -0.5530264 -4.350406 0.7210271 -0.5530264 -11.53805 0.7210271 -0.5916081 -11.53805 0.7210271 -0.5916081 -4.350406 0.7210271</float_array>
           <technique_common>
-            <accessor source="#Cube_549-mesh-positions-array" count="34" stride="3">
+            <accessor source="#PareteSinistra_001_001-mesh-positions-array" count="41" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="Cube_549-mesh-normals">
-          <float_array id="Cube_549-mesh-normals-array" count="24">0 0 1 0 0 -1 -1 0 0 1 0 0 0 -1 0 1 0 0 0 1 0 1 0 0</float_array>
+        <source id="PareteSinistra_001_001-mesh-normals">
+          <float_array id="PareteSinistra_001_001-mesh-normals-array" count="27">0 0 1 0 0 -1 -1 0 0 1 0 0 0 1 0 0 -1 0 1 0 0 1 0 0 -1 0 0</float_array>
           <technique_common>
-            <accessor source="#Cube_549-mesh-normals-array" count="8" stride="3">
+            <accessor source="#PareteSinistra_001_001-mesh-normals-array" count="9" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <vertices id="Cube_549-mesh-vertices">
-          <input semantic="POSITION" source="#Cube_549-mesh-positions"/>
+        <source id="PareteSinistra_001_001-mesh-map-0">
+          <float_array id="PareteSinistra_001_001-mesh-map-0-array" count="290">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.8176597 0.3898676 1.277998 0.3898643 1.277998 0.51881 0.8176599 0.5188137 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.08490544 1.023246 -0.08490574 0.8744392 -0.08490049 -0.04672467 0.1042305 -0.04672467 0.1042293 0.3890754 0.1042329 0.8744392 0.1042335 1.023246 0 0 0 0 0 0 0 0 -0.2779982 0.3898743 0.2000761 0.3898738 0.2000761 0.5188222 -0.2779982 0.518822 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.2779984 -0.4083749 0.2000762 -0.4083752 0.2000762 -0.03893864 -0.2779982 -0.03071683 0 0 0 0 0 0 0 0 0.8176595 -0.4083733 1.277998 -0.4083693 1.277998 -0.03894042 0.8176594 -0.03894084 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2650059 0.6301445 -0.223235 0.6301445 -0.223235 0.2128614 0.2650059 0.2128615 0.8176597 0.3898676 0.8176594 -0.03894084 1.277998 -0.03894042 1.277998 0.3898643 -0.2779982 0.3898743 -0.2779982 -0.03071683 0.2000762 -0.03893864 0.2000761 0.3898738 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.31726e-5 -0.07258802 2.24054e-4 0.121062 0.9999868 0.1210623 0.9997758 -0.07258802 0.8176595 -0.4083733 0.8176594 -0.03894084 0.2000762 -0.03893864 0.2000762 -0.4083752 0 0 0 0 0 0 0 0 0.2000761 0.5188222 0.2000761 0.3898738 0.8176597 0.3898676 0.8176599 0.5188137 0 0 0 0 0 0 0 0 -0.06674754 0.3128589 0.1085184 0.3128589 0.1085184 0.7496411 -0.06674754 0.7496411 -0.1499828 -0.08287835 1.149804 -0.08286708 1.149983 0.1003556 -0.1498035 0.1003443 -0.08490049 -0.04672467 -0.08490574 0.8744392 0 0 0 0</float_array>
+          <technique_common>
+            <accessor source="#PareteSinistra_001_001-mesh-map-0-array" count="145" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="PareteSinistra_001_001-mesh-vertices">
+          <input semantic="POSITION" source="#PareteSinistra_001_001-mesh-positions"/>
         </vertices>
-        <polylist material="PareteEsterna-material" count="69">
-          <input semantic="VERTEX" source="#Cube_549-mesh-vertices" offset="0"/>
-          <input semantic="NORMAL" source="#Cube_549-mesh-normals" offset="1"/>
-          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 6 8 </vcount>
-          <p>23 0 13 0 24 0 21 1 9 1 14 1 28 2 21 2 32 2 10 3 23 3 16 3 13 2 19 2 24 2 6 4 5 4 4 4 25 2 6 2 7 2 17 3 4 3 5 3 20 1 2 1 3 1 20 1 14 1 15 1 22 0 7 0 4 0 22 0 24 0 25 0 17 4 29 4 22 4 2 5 29 5 26 5 14 3 27 3 30 3 24 4 16 4 23 4 32 4 14 4 30 4 11 2 32 2 19 2 19 4 30 4 16 4 30 3 10 3 16 3 26 3 17 3 5 3 25 4 17 4 22 4 31 4 15 4 29 4 29 6 18 6 17 6 0 2 31 2 20 2 30 0 31 0 29 0 30 3 15 3 14 3 31 2 21 2 20 2 22 3 16 3 23 3 24 2 18 2 25 2 18 1 16 1 17 1 23 0 12 0 13 0 21 1 8 1 9 1 28 2 8 2 21 2 10 3 12 3 23 3 13 2 11 2 19 2 4 4 7 4 6 4 6 4 3 4 26 4 26 4 5 4 6 4 3 4 2 4 26 4 25 2 18 2 6 2 17 3 22 3 4 3 20 1 15 1 2 1 20 1 21 1 14 1 22 0 25 0 7 0 22 0 23 0 24 0 17 6 15 6 29 6 2 3 15 3 29 3 14 3 9 3 27 3 24 4 19 4 16 4 32 4 21 4 14 4 11 2 28 2 32 2 19 4 32 4 30 4 30 3 27 3 10 3 26 7 29 7 17 7 25 4 18 4 17 4 31 4 20 4 15 4 29 6 31 6 18 6 0 2 1 2 31 2 18 2 31 2 1 2 20 0 3 0 0 0 30 0 32 0 31 0 30 3 29 3 15 3 31 2 32 2 21 2 22 3 17 3 16 3 24 2 19 2 18 2 18 1 19 1 16 1 0 2 3 2 6 2 7 2 33 2 1 2 12 6 10 6 27 6 9 6 8 6 28 6 11 6 13 6</p>
+        <polylist material="PareteInterno-material" count="26">
+          <input semantic="VERTEX" source="#PareteSinistra_001_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#PareteSinistra_001_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#PareteSinistra_001_001-mesh-map-0" offset="2" set="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 6 4 4 4 4 4 4 </vcount>
+          <p>23 0 0 12 0 1 13 0 2 24 0 3 21 1 4 8 1 5 9 1 6 14 1 7 32 2 8 28 2 9 8 2 10 21 2 11 24 2 16 13 2 17 11 2 18 19 2 19 10 4 20 11 4 21 13 4 22 12 4 23 27 4 24 28 4 25 11 4 26 10 4 27 7 2 35 25 2 36 18 2 37 6 2 38 3 1 43 20 1 44 15 1 45 2 1 46 20 1 47 21 1 48 14 1 49 15 1 50 4 0 51 22 0 52 25 0 53 7 0 54 22 0 55 23 0 56 24 0 57 25 0 58 22 5 59 17 5 60 15 5 61 29 5 62 9 4 67 8 4 68 28 4 69 27 4 70 23 5 75 24 5 76 19 5 77 16 5 78 30 5 79 32 5 80 21 5 81 14 5 82 19 2 83 11 2 84 28 2 85 32 2 86 16 5 87 19 5 88 32 5 89 30 5 90 22 5 99 25 5 100 18 5 101 17 5 102 29 5 103 31 5 104 20 5 105 15 5 106 0 8 107 1 8 108 18 8 109 31 8 110 20 8 111 3 8 112 30 0 113 32 0 114 31 0 115 29 0 116 20 2 121 31 2 122 32 2 123 21 2 124 24 2 129 19 2 130 18 2 131 25 2 132 35 4 133 36 4 134 34 4 135 33 4 136 39 1 137 40 1 138 37 1 139 38 1 140 3 2 141 6 2 142 1 2 143 0 2 144</p>
+        </polylist>
+        <polylist material="Esterno-material" count="9">
+          <input semantic="VERTEX" source="#PareteSinistra_001_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#PareteSinistra_001_001-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#PareteSinistra_001_001-mesh-map-0" offset="2" set="0"/>
+          <vcount>4 7 4 4 4 4 4 4 4 </vcount>
+          <p>16 3 12 10 3 13 12 3 14 23 3 15 7 5 28 6 5 29 3 5 30 2 5 31 26 5 32 5 5 33 4 5 34 5 3 39 17 3 40 22 3 41 4 3 42 2 6 63 15 6 64 29 6 65 26 6 66 14 3 71 9 3 72 27 3 73 30 3 74 16 3 91 30 3 92 27 3 93 10 3 94 5 7 95 26 7 96 29 7 97 17 7 98 14 3 117 30 3 118 29 3 119 15 3 120 22 3 125 17 3 126 16 3 127 23 3 128</p>
         </polylist>
       </mesh>
     </geometry>
   </library_geometries>
-  <library_controllers/>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="PareteSinistra_002" name="PareteSinistra_002" type="NODE">
+      <node id="PareteSinistra_001_001" name="PareteSinistra_001_001" type="NODE">
         <matrix sid="transform">12.575 0 0 0.005729437 0 0.2 0 -5.073958 0 0 1.15 1.147989 0 0 0 1</matrix>
-        <instance_geometry url="#Cube_549-mesh" name="PareteSinistra_002">
+        <instance_geometry url="#PareteSinistra_001_001-mesh" name="PareteSinistra_001_001">
           <bind_material>
             <technique_common>
-              <instance_material symbol="PareteEsterna-material" target="#PareteEsterna-material"/>
+              <instance_material symbol="PareteInterno-material" target="#PareteInterno-material">
+                <bind_vertex_input semantic="Cube_001-mesh-map" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Esterno-material" target="#Esterno-material">
+                <bind_vertex_input semantic="Cube_001-mesh-map" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
             </technique_common>
           </bind_material>
         </instance_geometry>

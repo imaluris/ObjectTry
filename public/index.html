@@ -11,6 +11,7 @@
 
       
       <!-- ASSETS PARETI -->
+     
       <a-asset-item id="muraIngresso" src="Pareti/PareteIngresso.dae"></a-asset-item>
       <a-asset-item id="muraDestra" src="Pareti/PareteDestra.dae"></a-asset-item>
       <a-asset-item id="muraFondo" src="Pareti/PareteFondo.dae"></a-asset-item>
@@ -69,23 +70,26 @@
       <a-asset-item id="mobileLavagna" src="MobiliFissi/MobileLavagna.dae"></a-asset-item>
 
       <!--ASSETS DYNAMIC OBJECT-->
-      <!--<a-asset-item id="monitor1" src="DynamicObject/Monitor1.dae"></a-asset-item>
-      <a-asset-item id="monitor2" src="DynamicObject/Monitor2.dae"></a-asset-item>
+      <a-asset-item id="monitor1" src="DynamicObject/Monitor1.dae"></a-asset-item>
+      <!--<a-asset-item id="monitor2" src="DynamicObject/Monitor2.dae"></a-asset-item>
       <a-asset-item id="monitor3" src="DynamicObject/Monitor3.dae"></a-asset-item>
       <a-asset-item id="monitor4" src="DynamicObject/Monitor4.dae"></a-asset-item>-->
 
-      <a-asset-item id="tastiera-obj" src="DynamicObject/Tastiera1.obj"></a-asset-item>
-
+      <a-asset-item id="tastiera1" src="DynamicObject/Tastiera1.dae"></a-asset-item>
+      <a-asset-item id="tastiera" src="DynamicObject/Tastiera1.obj"></a-asset-item>
       <a-asset-item id="glassTransp-obj" src="EvonoveGlassTransparent.obj"></a-asset-item>
       <a-asset-item id="glassOpaco-obj" src="EvonoveGlassOpaco.obj"></a-asset-item>
       <a-asset-item id="Maniglie-obj" src="ManiglieMetallo.obj"></a-asset-item>
+
+      <a-asset-item id="boo" src="DynamicObject/boo.dae"></a-asset-item>
       
       
 
     </a-assets>
 
-      <a-entity vive-controls="hand: left" mixin="controller"></a-entity>
-      <a-entity vive-controls="hand: right" mixin="controller"></a-entity>
+      <!--<a-entity vive-controls="hand: left" mixin="controller"></a-entity>
+      <a-entity vive-controls="hand: right" mixin="controller"></a-entity>-->
+      <a-entity camera position="5 1 0" rotation="0 180 0"universal-controls></a-entity>
 
     
     <a-entity obj-model="obj: #Maniglie-obj;" material="color: #A5A5A5; metalness: 0.8;"></a-entity>
@@ -115,8 +119,8 @@
 
     <!-- MOBILI FISSI -->
     <!-- scrivanie ufficio -->
-    <a-collada-model static-body src="#scrivaniaUfficio1"></a-collada-model>
-    <a-collada-model static-body src="#scrivaniaUfficio2"></a-collada-model>
+    <a-collada-model static-body="shape: box" src="#scrivaniaUfficio1"></a-collada-model>
+    <a-collada-model static-body="shape: box" src="#scrivaniaUfficio2"></a-collada-model>
     <a-collada-model static-body src="#scrivaniaUfficio3"></a-collada-model>
     <a-collada-model static-body src="#scrivaniaUfficio4"></a-collada-model>
     <a-collada-model static-body src="#separe1"></a-collada-model>
@@ -149,14 +153,9 @@
     <a-entity obj-model="obj: #glassTransp-obj;" material="color: #87DFFF; transparent: true; opacity: 0.2;"></a-entity>
     <a-entity obj-model="obj: #glassOpaco-obj;" material="color: #87DFFF; transparent: false; opacity: 0.9;"></a-entity>
 
+    <a-collada-model src="#boo"></a-collada-model>
 
-    <a-collada-model src="#tastiera1" hoverable grabbable drag-droppable position="10 10 10" dynamic-body></a-collada-model>
-    <a-collada-model src="#tastiera2" hoverable grabbable drag-droppable position="-10 10 10" dynamic-body></a-collada-model>
-
-    <a-entity dynamic-body obj-model="obj: #tastiera-obj;"></a-entity>
-
-
-    <a-box class="cube" color="tomato" depth="1" height="1" width="0.5" position="10 20 0" hoverable grabbable drag-droppable dynamic-body></a-box>
+    
 
     <a-plane static-body rotation="-90 0 0" color="grey" repeat="50 50" width="100" height="100"></a-plane>
 

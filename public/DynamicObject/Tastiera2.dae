@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f235283</authoring_tool>
     </contributor>
-    <created>2017-07-04T16:59:16</created>
-    <modified>2017-07-04T16:59:16</modified>
+    <created>2017-07-05T09:59:56</created>
+    <modified>2017-07-05T09:59:56</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -166,7 +166,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="Tastiera_004" name="Tastiera_004" type="NODE">
-        <matrix sid="transform">-4.62745e-8 0.1008716 0 5.446407 -0.2840307 -1.64341e-8 0 -3.209387 0 0 0.01404284 0.7581848 0 0 0 1</matrix>
+        <matrix sid="transform">-4.62745e-8 0.1008716 0 5.446407 -0.2840307 -1.64341e-8 0 -3.209387 0 0 0.01404284 2.30209 0 0 0 1</matrix>
         <instance_geometry url="#Cube_538-mesh" name="Tastiera_004">
           <bind_material>
             <technique_common>
