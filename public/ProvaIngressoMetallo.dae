@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f235283</authoring_tool>
+    </contributor>
+    <created>2017-07-11T14:48:18</created>
+    <modified>2017-07-11T14:48:18</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Alluminio_056-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_004-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Alluminio_056-material" name="Alluminio_056">
+      <instance_effect url="#Alluminio_056-effect"/>
+    </material>
+    <material id="Alluminio_004-material" name="Alluminio_004">
+      <instance_effect url="#Alluminio_004-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="AllIng_023-mesh" name="AllIng.023">
+      <mesh>
+        <source id="AllIng_023-mesh-positions">
+          <float_array id="AllIng_023-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_023-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_023-mesh-normals">
+          <float_array id="AllIng_023-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_023-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_023-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_023-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_056-material" count="6">
+          <input semantic="VERTEX" source="#AllIng_023-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_023-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_022-mesh" name="AllIng.022">
+      <mesh>
+        <source id="AllIng_022-mesh-positions">
+          <float_array id="AllIng_022-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_022-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_022-mesh-normals">
+          <float_array id="AllIng_022-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_022-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_022-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_022-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllIng_022-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_022-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_020-mesh" name="AllIng.020">
+      <mesh>
+        <source id="AllIng_020-mesh-positions">
+          <float_array id="AllIng_020-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_020-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_020-mesh-normals">
+          <float_array id="AllIng_020-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_020-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_020-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_020-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllIng_020-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_020-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_019-mesh" name="AllIng.019">
+      <mesh>
+        <source id="AllIng_019-mesh-positions">
+          <float_array id="AllIng_019-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_019-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_019-mesh-normals">
+          <float_array id="AllIng_019-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_019-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_019-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_019-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllIng_019-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_019-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_018-mesh" name="AllIng.018">
+      <mesh>
+        <source id="AllIng_018-mesh-positions">
+          <float_array id="AllIng_018-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 4.402968 -1 1 4.402968 1 -1 4.402968 1 1 4.402968</float_array>
+          <technique_common>
+            <accessor source="#AllIng_018-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_018-mesh-normals">
+          <float_array id="AllIng_018-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_018-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_018-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_018-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllIng_018-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_018-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 10 5 11 5 15 5 14 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2 12 3 14 3 18 3 16 3 9 5 8 5 12 5 13 5 8 5 10 5 14 5 12 5 11 5 9 5 13 5 15 5 19 5 17 5 16 5 18 5 15 1 13 1 17 1 19 1 14 2 15 2 19 2 18 2 13 0 12 0 16 0 17 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_012-mesh" name="AllIng.012">
+      <mesh>
+        <source id="AllIng_012-mesh-positions">
+          <float_array id="AllIng_012-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 4.402968 -1 1 4.402968 1 -1 4.402968 1 1 4.402968</float_array>
+          <technique_common>
+            <accessor source="#AllIng_012-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_012-mesh-normals">
+          <float_array id="AllIng_012-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_012-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_012-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_012-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllIng_012-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_012-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 10 5 11 5 15 5 14 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2 12 3 14 3 18 3 16 3 9 5 8 5 12 5 13 5 8 5 10 5 14 5 12 5 11 5 9 5 13 5 15 5 19 5 17 5 16 5 18 5 15 1 13 1 17 1 19 1 14 2 15 2 19 2 18 2 13 0 12 0 16 0 17 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng-mesh" name="AllIng">
+      <mesh>
+        <source id="AllIng-mesh-positions">
+          <float_array id="AllIng-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 4.402968 -1 1 4.402968 1 -1 4.402968 1 1 4.402968</float_array>
+          <technique_common>
+            <accessor source="#AllIng-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng-mesh-normals">
+          <float_array id="AllIng-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllIng-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 10 5 11 5 15 5 14 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2 12 3 14 3 18 3 16 3 9 5 8 5 12 5 13 5 8 5 10 5 14 5 12 5 11 5 9 5 13 5 15 5 19 5 17 5 16 5 18 5 15 1 13 1 17 1 19 1 14 2 15 2 19 2 18 2 13 0 12 0 16 0 17 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_007-mesh" name="AllIng.007">
+      <mesh>
+        <source id="AllIng_007-mesh-positions">
+          <float_array id="AllIng_007-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 4.402968 -1 1 4.402968 1 -1 4.402968 1 1 4.402968</float_array>
+          <technique_common>
+            <accessor source="#AllIng_007-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_007-mesh-normals">
+          <float_array id="AllIng_007-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_007-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_007-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_007-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllIng_007-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_007-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 10 5 11 5 15 5 14 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2 12 3 14 3 18 3 16 3 9 5 8 5 12 5 13 5 8 5 10 5 14 5 12 5 11 5 9 5 13 5 15 5 19 5 17 5 16 5 18 5 15 1 13 1 17 1 19 1 14 2 15 2 19 2 18 2 13 0 12 0 16 0 17 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_006-mesh" name="AllIng.006">
+      <mesh>
+        <source id="AllIng_006-mesh-positions">
+          <float_array id="AllIng_006-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 4.402968 -1 1 4.402968 1 -1 4.402968 1 1 4.402968</float_array>
+          <technique_common>
+            <accessor source="#AllIng_006-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_006-mesh-normals">
+          <float_array id="AllIng_006-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_006-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_006-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_006-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllIng_006-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_006-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 10 5 11 5 15 5 14 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2 12 3 14 3 18 3 16 3 9 5 8 5 12 5 13 5 8 5 10 5 14 5 12 5 11 5 9 5 13 5 15 5 19 5 17 5 16 5 18 5 15 1 13 1 17 1 19 1 14 2 15 2 19 2 18 2 13 0 12 0 16 0 17 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_005-mesh" name="AllIng.005">
+      <mesh>
+        <source id="AllIng_005-mesh-positions">
+          <float_array id="AllIng_005-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 4.402968 -1 1 4.402968 1 -1 4.402968 1 1 4.402968</float_array>
+          <technique_common>
+            <accessor source="#AllIng_005-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_005-mesh-normals">
+          <float_array id="AllIng_005-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_005-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_005-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_005-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllIng_005-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_005-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 10 5 11 5 15 5 14 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2 12 3 14 3 18 3 16 3 9 5 8 5 12 5 13 5 8 5 10 5 14 5 12 5 11 5 9 5 13 5 15 5 19 5 17 5 16 5 18 5 15 1 13 1 17 1 19 1 14 2 15 2 19 2 18 2 13 0 12 0 16 0 17 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_001-mesh" name="AllIng.001">
+      <mesh>
+        <source id="AllIng_001-mesh-positions">
+          <float_array id="AllIng_001-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_001-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_001-mesh-normals">
+          <float_array id="AllIng_001-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_001-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_001-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_001-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllIng_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_001-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="AllIng_023" name="AllIng_023" type="NODE">
+        <matrix sid="transform">-2.73205e-8 -0.02 0 12.39906 0.625021 -8.74228e-10 0 4.305117 0 0 0.09674785 0.09792963 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_023-mesh" name="AllIng_023">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_056-material" target="#Alluminio_056-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_022" name="AllIng_022" type="NODE">
+        <matrix sid="transform">-2.37821e-8 -0.02 0 12.39906 0.5440713 -8.74228e-10 0 0.6769557 0 0 0.09671695 0.09936109 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_022-mesh" name="AllIng_022">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_020" name="AllIng_020" type="NODE">
+        <matrix sid="transform">-2.37821e-8 -0.02 0 12.39906 0.5440713 -8.74228e-10 0 1.831045 0 0 0.06706787 1.859176 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_020-mesh" name="AllIng_020">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_019" name="AllIng_019" type="NODE">
+        <matrix sid="transform">-2.37821e-8 -0.02 0 12.39906 0.5440713 -8.74228e-10 0 1.831045 0 0 0.09671695 0.09936109 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_019-mesh" name="AllIng_019">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_018" name="AllIng_018" type="NODE">
+        <matrix sid="transform">-1.31134e-9 -0.02 0 12.39904 0.03 -8.74228e-10 0 1.25706 0 0 0.3585667 0.3485667 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_018-mesh" name="AllIng_018">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_012" name="AllIng_012" type="NODE">
+        <matrix sid="transform">-1.31134e-9 -0.02 0 12.39904 0.03 -8.74228e-10 0 2.400575 0 0 0.3585667 0.3485667 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_012-mesh" name="AllIng_012">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng" name="AllIng" type="NODE">
+        <matrix sid="transform">-1.74846e-9 -0.02 0 12.39889 0.04 -8.74228e-10 0 1.185645 0 0 0.3585667 0.3467943 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng-mesh" name="AllIng">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_007" name="AllIng_007" type="NODE">
+        <matrix sid="transform">-1.74846e-9 -0.02 0 12.39904 0.04 -8.74228e-10 0 3.661851 0 0 0.3599789 0.3490458 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_007-mesh" name="AllIng_007">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_006" name="AllIng_006" type="NODE">
+        <matrix sid="transform">-1.74846e-9 -0.02 0 12.39776 0.04 -8.74228e-10 0 4.934603 0 0 0.3592985 0.3491497 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_006-mesh" name="AllIng_006">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_005" name="AllIng_005" type="NODE">
+        <matrix sid="transform">-1.74846e-9 -0.02 0 12.39776 0.04 -8.74228e-10 0 0.1729546 0 0 0.3587079 0.3482497 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_005-mesh" name="AllIng_005">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_001" name="AllIng_001" type="NODE">
+        <matrix sid="transform">-1.0666e-7 -0.02 0 12.39768 2.4401 -8.74228e-10 0 2.543823 0 0 0.05850516 1.95723 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_001-mesh" name="AllIng_001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

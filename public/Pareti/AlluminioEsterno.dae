@@ -1,0 +1,3357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f235283</authoring_tool>
+    </contributor>
+    <created>2017-07-12T16:49:18</created>
+    <modified>2017-07-12T16:49:18</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="Alluminio_056-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_004-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_029-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_027-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_026-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_009-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_008-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_007-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_003-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_002-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_043-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_001-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Alluminio_004_001-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.4563778 0.4563778 0.4563778 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.25 0.25 0.25 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Alluminio_056-material" name="Alluminio_056">
+      <instance_effect url="#Alluminio_056-effect"/>
+    </material>
+    <material id="Alluminio_004-material" name="Alluminio_004">
+      <instance_effect url="#Alluminio_004-effect"/>
+    </material>
+    <material id="Alluminio_029-material" name="Alluminio_029">
+      <instance_effect url="#Alluminio_029-effect"/>
+    </material>
+    <material id="Alluminio_027-material" name="Alluminio_027">
+      <instance_effect url="#Alluminio_027-effect"/>
+    </material>
+    <material id="Alluminio_026-material" name="Alluminio_026">
+      <instance_effect url="#Alluminio_026-effect"/>
+    </material>
+    <material id="Alluminio_009-material" name="Alluminio_009">
+      <instance_effect url="#Alluminio_009-effect"/>
+    </material>
+    <material id="Alluminio_008-material" name="Alluminio_008">
+      <instance_effect url="#Alluminio_008-effect"/>
+    </material>
+    <material id="Alluminio_007-material" name="Alluminio_007">
+      <instance_effect url="#Alluminio_007-effect"/>
+    </material>
+    <material id="Alluminio_003-material" name="Alluminio_003">
+      <instance_effect url="#Alluminio_003-effect"/>
+    </material>
+    <material id="Alluminio_002-material" name="Alluminio_002">
+      <instance_effect url="#Alluminio_002-effect"/>
+    </material>
+    <material id="Alluminio-material" name="Alluminio">
+      <instance_effect url="#Alluminio-effect"/>
+    </material>
+    <material id="Alluminio_043-material" name="Alluminio_043">
+      <instance_effect url="#Alluminio_043-effect"/>
+    </material>
+    <material id="Alluminio_001-material" name="Alluminio_001">
+      <instance_effect url="#Alluminio_001-effect"/>
+    </material>
+    <material id="Alluminio_004_001-material" name="Alluminio_004_001">
+      <instance_effect url="#Alluminio_004_001-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="AllIng_023-mesh" name="AllIng_023">
+      <mesh>
+        <source id="AllIng_023-mesh-positions">
+          <float_array id="AllIng_023-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_023-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_023-mesh-normals">
+          <float_array id="AllIng_023-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_023-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_023-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_023-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_056-material" count="6">
+          <input semantic="VERTEX" source="#AllIng_023-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_023-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_022-mesh" name="AllIng_022">
+      <mesh>
+        <source id="AllIng_022-mesh-positions">
+          <float_array id="AllIng_022-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_022-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_022-mesh-normals">
+          <float_array id="AllIng_022-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_022-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_022-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_022-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllIng_022-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_022-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_020-mesh" name="AllIng_020">
+      <mesh>
+        <source id="AllIng_020-mesh-positions">
+          <float_array id="AllIng_020-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_020-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_020-mesh-normals">
+          <float_array id="AllIng_020-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_020-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_020-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_020-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllIng_020-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_020-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_019-mesh" name="AllIng_019">
+      <mesh>
+        <source id="AllIng_019-mesh-positions">
+          <float_array id="AllIng_019-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_019-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_019-mesh-normals">
+          <float_array id="AllIng_019-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_019-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_019-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_019-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllIng_019-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_019-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_043-mesh" name="AllFinestra_043">
+      <mesh>
+        <source id="AllFinestra_043-mesh-positions">
+          <float_array id="AllFinestra_043-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 1 1 -1.59371 -1 1 -1.59371 1 -1 -1.59371 -1 -1 -1.59371</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_043-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_043-mesh-normals">
+          <float_array id="AllFinestra_043-mesh-normals-array" count="15">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_043-mesh-normals-array" count="5" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_043-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_043-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="17">
+          <input semantic="VERTEX" source="#AllFinestra_043-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_043-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 4 3 0 3 8 3 10 3 7 4 3 4 1 4 5 4 10 4 8 4 12 4 14 4 2 1 6 1 11 1 9 1 0 0 2 0 9 0 8 0 6 2 4 2 10 2 11 2 9 4 11 4 15 4 13 4 11 4 10 4 14 4 15 4 8 4 9 4 13 4 12 4 14 3 12 3 19 3 18 3 12 0 13 0 17 0 19 0 15 2 14 2 18 2 16 2 13 1 15 1 16 1 17 1</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_042-mesh" name="AllFinestra_042">
+      <mesh>
+        <source id="AllFinestra_042-mesh-positions">
+          <float_array id="AllFinestra_042-mesh-positions-array" count="48">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_042-mesh-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_042-mesh-normals">
+          <float_array id="AllFinestra_042-mesh-normals-array" count="15">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_042-mesh-normals-array" count="5" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_042-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_042-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="13">
+          <input semantic="VERTEX" source="#AllFinestra_042-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_042-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 4 3 0 3 8 3 10 3 7 4 3 4 1 4 5 4 10 4 8 4 12 4 14 4 2 1 6 1 11 1 9 1 0 0 2 0 9 0 8 0 6 2 4 2 10 2 11 2 9 4 11 4 15 4 13 4 11 4 10 4 14 4 15 4 8 4 9 4 13 4 12 4</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_018-mesh" name="AllIng_018">
+      <mesh>
+        <source id="AllIng_018-mesh-positions">
+          <float_array id="AllIng_018-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 4.402968 -1 1 4.402968 1 -1 4.402968 1 1 4.402968</float_array>
+          <technique_common>
+            <accessor source="#AllIng_018-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_018-mesh-normals">
+          <float_array id="AllIng_018-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_018-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_018-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_018-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllIng_018-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_018-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 10 5 11 5 15 5 14 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2 12 3 14 3 18 3 16 3 9 5 8 5 12 5 13 5 8 5 10 5 14 5 12 5 11 5 9 5 13 5 15 5 19 5 17 5 16 5 18 5 15 1 13 1 17 1 19 1 14 2 15 2 19 2 18 2 13 0 12 0 16 0 17 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_012-mesh" name="AllIng_012">
+      <mesh>
+        <source id="AllIng_012-mesh-positions">
+          <float_array id="AllIng_012-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 4.402968 -1 1 4.402968 1 -1 4.402968 1 1 4.402968</float_array>
+          <technique_common>
+            <accessor source="#AllIng_012-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_012-mesh-normals">
+          <float_array id="AllIng_012-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_012-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_012-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_012-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllIng_012-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_012-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 10 5 11 5 15 5 14 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2 12 3 14 3 18 3 16 3 9 5 8 5 12 5 13 5 8 5 10 5 14 5 12 5 11 5 9 5 13 5 15 5 19 5 17 5 16 5 18 5 15 1 13 1 17 1 19 1 14 2 15 2 19 2 18 2 13 0 12 0 16 0 17 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_041-mesh" name="AllFinestra_041">
+      <mesh>
+        <source id="AllFinestra_041-mesh-positions">
+          <float_array id="AllFinestra_041-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_041-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_041-mesh-normals">
+          <float_array id="AllFinestra_041-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_041-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_041-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_041-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_041-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_041-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_005-mesh" name="AllFinestra_005">
+      <mesh>
+        <source id="AllFinestra_005-mesh-positions">
+          <float_array id="AllFinestra_005-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_005-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_005-mesh-normals">
+          <float_array id="AllFinestra_005-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_005-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_005-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_005-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_005-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_005-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_040-mesh" name="AllFinestra_040">
+      <mesh>
+        <source id="AllFinestra_040-mesh-positions">
+          <float_array id="AllFinestra_040-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_040-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_040-mesh-normals">
+          <float_array id="AllFinestra_040-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_040-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_040-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_040-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_040-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_040-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_039-mesh" name="AllFinestra_039">
+      <mesh>
+        <source id="AllFinestra_039-mesh-positions">
+          <float_array id="AllFinestra_039-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_039-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_039-mesh-normals">
+          <float_array id="AllFinestra_039-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_039-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_039-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_039-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_039-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_039-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_038-mesh" name="AllFinestra_038">
+      <mesh>
+        <source id="AllFinestra_038-mesh-positions">
+          <float_array id="AllFinestra_038-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_038-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_038-mesh-normals">
+          <float_array id="AllFinestra_038-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_038-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_038-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_038-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_029-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_038-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_038-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_037-mesh" name="AllFinestra_037">
+      <mesh>
+        <source id="AllFinestra_037-mesh-positions">
+          <float_array id="AllFinestra_037-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_037-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_037-mesh-normals">
+          <float_array id="AllFinestra_037-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_037-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_037-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_037-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_037-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_037-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_036-mesh" name="AllFinestra_036">
+      <mesh>
+        <source id="AllFinestra_036-mesh-positions">
+          <float_array id="AllFinestra_036-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_036-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_036-mesh-normals">
+          <float_array id="AllFinestra_036-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_036-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_036-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_036-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_027-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_036-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_036-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_035-mesh" name="AllFinestra_035">
+      <mesh>
+        <source id="AllFinestra_035-mesh-positions">
+          <float_array id="AllFinestra_035-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_035-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_035-mesh-normals">
+          <float_array id="AllFinestra_035-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_035-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_035-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_035-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_026-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_035-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_035-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_034-mesh" name="AllFinestra_034">
+      <mesh>
+        <source id="AllFinestra_034-mesh-positions">
+          <float_array id="AllFinestra_034-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_034-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_034-mesh-normals">
+          <float_array id="AllFinestra_034-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_034-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_034-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_034-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_034-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_034-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_033-mesh" name="AllFinestra_033">
+      <mesh>
+        <source id="AllFinestra_033-mesh-positions">
+          <float_array id="AllFinestra_033-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_033-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_033-mesh-normals">
+          <float_array id="AllFinestra_033-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_033-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_033-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_033-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_033-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_033-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_032-mesh" name="AllFinestra_032">
+      <mesh>
+        <source id="AllFinestra_032-mesh-positions">
+          <float_array id="AllFinestra_032-mesh-positions-array" count="36">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -25.02618 1 1 -25.02618 1 -1 -25.02618 -1 1 -25.02618 -1 -1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_032-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_032-mesh-normals">
+          <float_array id="AllFinestra_032-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_032-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_032-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_032-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="10">
+          <input semantic="VERTEX" source="#AllFinestra_032-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_032-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>9 0 11 0 10 0 8 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5 1 5 3 5 8 5 10 5 0 3 1 3 10 3 11 3 3 1 2 1 9 1 8 1 2 4 0 4 11 4 9 4</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_031-mesh" name="AllFinestra_031">
+      <mesh>
+        <source id="AllFinestra_031-mesh-positions">
+          <float_array id="AllFinestra_031-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_031-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_031-mesh-normals">
+          <float_array id="AllFinestra_031-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_031-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_031-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_031-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_031-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_031-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_030-mesh" name="AllFinestra_030">
+      <mesh>
+        <source id="AllFinestra_030-mesh-positions">
+          <float_array id="AllFinestra_030-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_030-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_030-mesh-normals">
+          <float_array id="AllFinestra_030-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_030-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_030-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_030-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_030-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_030-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_029-mesh" name="AllFinestra_029">
+      <mesh>
+        <source id="AllFinestra_029-mesh-positions">
+          <float_array id="AllFinestra_029-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 1.097119 -1 -1 1.097119 -1 1 1.097119 1 -1 1.097119 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_029-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_029-mesh-normals">
+          <float_array id="AllFinestra_029-mesh-normals-array" count="18">1 0 0 0 -1 0 -1 0 0 0 1 0 0 0 1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_029-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_029-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_029-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="16">
+          <input semantic="VERTEX" source="#AllFinestra_029-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_029-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 2 0 3 0 1 0 2 1 6 1 7 1 3 1 6 2 4 2 5 2 7 2 4 3 0 3 1 3 5 3 2 4 0 4 4 4 6 4 7 5 5 5 1 5 3 5 8 2 9 2 11 2 10 2 10 3 11 3 15 3 14 3 15 4 13 4 17 4 19 4 12 1 13 1 9 1 8 1 10 5 14 5 12 5 8 5 15 4 11 4 9 4 13 4 18 0 19 0 17 0 16 0 14 3 15 3 19 3 18 3 13 1 12 1 16 1 17 1 12 5 14 5 18 5 16 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_028-mesh" name="AllFinestra_028">
+      <mesh>
+        <source id="AllFinestra_028-mesh-positions">
+          <float_array id="AllFinestra_028-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_028-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_028-mesh-normals">
+          <float_array id="AllFinestra_028-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_028-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_028-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_028-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_009-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_028-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_028-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_027-mesh" name="AllFinestra_027">
+      <mesh>
+        <source id="AllFinestra_027-mesh-positions">
+          <float_array id="AllFinestra_027-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_027-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_027-mesh-normals">
+          <float_array id="AllFinestra_027-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_027-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_027-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_027-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_008-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_027-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_027-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_026-mesh" name="AllFinestra_026">
+      <mesh>
+        <source id="AllFinestra_026-mesh-positions">
+          <float_array id="AllFinestra_026-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_026-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_026-mesh-normals">
+          <float_array id="AllFinestra_026-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_026-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_026-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_026-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_007-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_026-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_026-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_025-mesh" name="AllFinestra_025">
+      <mesh>
+        <source id="AllFinestra_025-mesh-positions">
+          <float_array id="AllFinestra_025-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_025-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_025-mesh-normals">
+          <float_array id="AllFinestra_025-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_025-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_025-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_025-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_003-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_025-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_025-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_024-mesh" name="AllFinestra_024">
+      <mesh>
+        <source id="AllFinestra_024-mesh-positions">
+          <float_array id="AllFinestra_024-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_024-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_024-mesh-normals">
+          <float_array id="AllFinestra_024-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_024-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_024-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_024-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_002-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_024-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_024-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_020-mesh" name="AllFinestra_020">
+      <mesh>
+        <source id="AllFinestra_020-mesh-positions">
+          <float_array id="AllFinestra_020-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -7.37136 -1 1 -7.37136 1 -1 -7.37136 1 1 -7.37136</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_020-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_020-mesh-normals">
+          <float_array id="AllFinestra_020-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_020-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_020-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_020-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllFinestra_020-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_020-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 4 3 0 3 8 3 10 3 7 4 3 4 1 4 5 4 10 4 8 4 12 4 14 4 2 1 6 1 11 1 9 1 0 0 2 0 9 0 8 0 6 2 4 2 10 2 11 2 13 1 15 1 19 1 17 1 9 4 11 4 15 4 13 4 11 4 10 4 14 4 15 4 8 4 9 4 13 4 12 4 17 5 19 5 18 5 16 5 15 2 14 2 18 2 19 2 12 0 13 0 17 0 16 0 14 3 12 3 16 3 18 3</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_022-mesh" name="AllFinestra_022">
+      <mesh>
+        <source id="AllFinestra_022-mesh-positions">
+          <float_array id="AllFinestra_022-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -7.37136 -1 1 -7.37136 1 -1 -7.37136 1 1 -7.37136</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_022-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_022-mesh-normals">
+          <float_array id="AllFinestra_022-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_022-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_022-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_022-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllFinestra_022-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_022-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 4 3 0 3 8 3 10 3 7 4 3 4 1 4 5 4 10 4 8 4 12 4 14 4 2 1 6 1 11 1 9 1 0 0 2 0 9 0 8 0 6 2 4 2 10 2 11 2 13 1 15 1 19 1 17 1 9 4 11 4 15 4 13 4 11 4 10 4 14 4 15 4 8 4 9 4 13 4 12 4 17 5 19 5 18 5 16 5 15 2 14 2 18 2 19 2 12 0 13 0 17 0 16 0 14 3 12 3 16 3 18 3</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_021-mesh" name="AllFinestra_021">
+      <mesh>
+        <source id="AllFinestra_021-mesh-positions">
+          <float_array id="AllFinestra_021-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -7.37136 -1 1 -7.37136 1 -1 -7.37136 1 1 -7.37136</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_021-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_021-mesh-normals">
+          <float_array id="AllFinestra_021-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_021-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_021-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_021-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllFinestra_021-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_021-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 4 3 0 3 8 3 10 3 7 4 3 4 1 4 5 4 10 4 8 4 12 4 14 4 2 1 6 1 11 1 9 1 0 0 2 0 9 0 8 0 6 2 4 2 10 2 11 2 13 1 15 1 19 1 17 1 9 4 11 4 15 4 13 4 11 4 10 4 14 4 15 4 8 4 9 4 13 4 12 4 17 5 19 5 18 5 16 5 15 2 14 2 18 2 19 2 12 0 13 0 17 0 16 0 14 3 12 3 16 3 18 3</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_008-mesh" name="AllIng_008">
+      <mesh>
+        <source id="AllIng_008-mesh-positions">
+          <float_array id="AllIng_008-mesh-positions-array" count="96">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -0.3252312 1 -1 -0.3252312 1 1 -0.3252312 -1 -1 -0.3252312 -1 1 -0.7741484 1 -1 -0.7741484 -1 1 -0.7741484 1 1 -0.7741484 -1 -1 -1 -1 0 -1 1 0 1 1 0 1 -1 0 -0.3252312 -1 0 -0.3252312 1 0 -0.7741484 1 0 -0.7741484 -1 0 -0.3252312 -1 0 -0.7741484 -1 0 -1 1 0 -0.7741484 1 0 -0.3252312 1 0 1 -1 0 -1 -1 0 1 1 0</float_array>
+          <technique_common>
+            <accessor source="#AllIng_008-mesh-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_008-mesh-normals">
+          <float_array id="AllIng_008-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_008-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_008-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_008-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="19">
+          <input semantic="VERTEX" source="#AllIng_008-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_008-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>30 0 1 0 3 0 17 0 21 1 9 1 7 1 18 1 18 2 7 2 5 2 19 2 23 3 13 3 1 3 30 3 8 4 6 4 4 4 10 4 14 5 3 5 1 5 13 5 7 5 9 5 11 5 5 5 19 3 5 3 11 3 20 3 22 1 14 1 9 1 21 1 17 1 3 1 14 1 22 1 2 4 12 4 15 4 0 4 9 5 14 5 13 5 11 5 20 3 11 3 13 3 23 3 2 1 26 1 27 1 12 1 4 3 29 3 24 3 10 3 15 3 25 3 16 3 0 3 6 2 31 2 29 2 4 2 8 1 28 1 31 1 6 1 0 0 16 0 26 0 2 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng-mesh" name="AllIng">
+      <mesh>
+        <source id="AllIng-mesh-positions">
+          <float_array id="AllIng-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 4.402968 -1 1 4.402968 1 -1 4.402968 1 1 4.402968</float_array>
+          <technique_common>
+            <accessor source="#AllIng-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng-mesh-normals">
+          <float_array id="AllIng-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllIng-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 10 5 11 5 15 5 14 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2 12 3 14 3 18 3 16 3 9 5 8 5 12 5 13 5 8 5 10 5 14 5 12 5 11 5 9 5 13 5 15 5 19 5 17 5 16 5 18 5 15 1 13 1 17 1 19 1 14 2 15 2 19 2 18 2 13 0 12 0 16 0 17 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_007-mesh" name="AllIng_007">
+      <mesh>
+        <source id="AllIng_007-mesh-positions">
+          <float_array id="AllIng_007-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 4.402968 -1 1 4.402968 1 -1 4.402968 1 1 4.402968</float_array>
+          <technique_common>
+            <accessor source="#AllIng_007-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_007-mesh-normals">
+          <float_array id="AllIng_007-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_007-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_007-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_007-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllIng_007-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_007-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 10 5 11 5 15 5 14 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2 12 3 14 3 18 3 16 3 9 5 8 5 12 5 13 5 8 5 10 5 14 5 12 5 11 5 9 5 13 5 15 5 19 5 17 5 16 5 18 5 15 1 13 1 17 1 19 1 14 2 15 2 19 2 18 2 13 0 12 0 16 0 17 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_006-mesh" name="AllIng_006">
+      <mesh>
+        <source id="AllIng_006-mesh-positions">
+          <float_array id="AllIng_006-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 4.402968 -1 1 4.402968 1 -1 4.402968 1 1 4.402968</float_array>
+          <technique_common>
+            <accessor source="#AllIng_006-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_006-mesh-normals">
+          <float_array id="AllIng_006-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_006-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_006-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_006-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllIng_006-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_006-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 10 5 11 5 15 5 14 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2 12 3 14 3 18 3 16 3 9 5 8 5 12 5 13 5 8 5 10 5 14 5 12 5 11 5 9 5 13 5 15 5 19 5 17 5 16 5 18 5 15 1 13 1 17 1 19 1 14 2 15 2 19 2 18 2 13 0 12 0 16 0 17 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_005-mesh" name="AllIng_005">
+      <mesh>
+        <source id="AllIng_005-mesh-positions">
+          <float_array id="AllIng_005-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642 -1 -1 4.402968 -1 1 4.402968 1 -1 4.402968 1 1 4.402968</float_array>
+          <technique_common>
+            <accessor source="#AllIng_005-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_005-mesh-normals">
+          <float_array id="AllIng_005-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_005-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_005-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_005-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="18">
+          <input semantic="VERTEX" source="#AllIng_005-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_005-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 10 5 11 5 15 5 14 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2 12 3 14 3 18 3 16 3 9 5 8 5 12 5 13 5 8 5 10 5 14 5 12 5 11 5 9 5 13 5 15 5 19 5 17 5 16 5 18 5 15 1 13 1 17 1 19 1 14 2 15 2 19 2 18 2 13 0 12 0 16 0 17 0</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_004-mesh" name="AllIng_004">
+      <mesh>
+        <source id="AllIng_004-mesh-positions">
+          <float_array id="AllIng_004-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_004-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_004-mesh-normals">
+          <float_array id="AllIng_004-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_004-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_004-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_004-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllIng_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_004-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_003-mesh" name="AllIng_003">
+      <mesh>
+        <source id="AllIng_003-mesh-positions">
+          <float_array id="AllIng_003-mesh-positions-array" count="36">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642</float_array>
+          <technique_common>
+            <accessor source="#AllIng_003-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_003-mesh-normals">
+          <float_array id="AllIng_003-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_003-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_003-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_003-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="10">
+          <input semantic="VERTEX" source="#AllIng_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_003-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 11 5 9 5 8 5 10 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_002-mesh" name="AllIng_002">
+      <mesh>
+        <source id="AllIng_002-mesh-positions">
+          <float_array id="AllIng_002-mesh-positions-array" count="36">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 1.79642 -1 1 1.79642 1 -1 1.79642 1 1 1.79642</float_array>
+          <technique_common>
+            <accessor source="#AllIng_002-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_002-mesh-normals">
+          <float_array id="AllIng_002-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_002-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_002-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_002-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="10">
+          <input semantic="VERTEX" source="#AllIng_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_002-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 3 0 1 0 8 0 9 0 11 5 9 5 8 5 10 5 1 3 5 3 10 3 8 3 7 1 3 1 9 1 11 1 5 2 7 2 11 2 10 2</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllIng_001-mesh" name="AllIng_001">
+      <mesh>
+        <source id="AllIng_001-mesh-positions">
+          <float_array id="AllIng_001-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_001-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllIng_001-mesh-normals">
+          <float_array id="AllIng_001-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllIng_001-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllIng_001-mesh-vertices">
+          <input semantic="POSITION" source="#AllIng_001-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllIng_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllIng_001-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra-mesh" name="AllFinestra">
+      <mesh>
+        <source id="AllFinestra-mesh-positions">
+          <float_array id="AllFinestra-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra-mesh-normals">
+          <float_array id="AllFinestra-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_004-mesh" name="AllFinestra_004">
+      <mesh>
+        <source id="AllFinestra_004-mesh-positions">
+          <float_array id="AllFinestra_004-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_004-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_004-mesh-normals">
+          <float_array id="AllFinestra_004-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_004-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_004-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_004-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_004-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_002-mesh" name="AllFinestra_002">
+      <mesh>
+        <source id="AllFinestra_002-mesh-positions">
+          <float_array id="AllFinestra_002-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_002-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_002-mesh-normals">
+          <float_array id="AllFinestra_002-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_002-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_002-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_002-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_002-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_003-mesh" name="AllFinestra_003">
+      <mesh>
+        <source id="AllFinestra_003-mesh-positions">
+          <float_array id="AllFinestra_003-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_003-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_003-mesh-normals">
+          <float_array id="AllFinestra_003-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_003-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_003-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_003-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_003-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_001-mesh" name="AllFinestra_001">
+      <mesh>
+        <source id="AllFinestra_001-mesh-positions">
+          <float_array id="AllFinestra_001-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_001-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_001-mesh-normals">
+          <float_array id="AllFinestra_001-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_001-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_001-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_001-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_001-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_014-mesh" name="AllFinestra_014">
+      <mesh>
+        <source id="AllFinestra_014-mesh-positions">
+          <float_array id="AllFinestra_014-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_014-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_014-mesh-normals">
+          <float_array id="AllFinestra_014-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_014-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_014-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_014-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_014-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_014-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_013-mesh" name="AllFinestra_013">
+      <mesh>
+        <source id="AllFinestra_013-mesh-positions">
+          <float_array id="AllFinestra_013-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_013-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_013-mesh-normals">
+          <float_array id="AllFinestra_013-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_013-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_013-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_013-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_013-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_013-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_012-mesh" name="AllFinestra_012">
+      <mesh>
+        <source id="AllFinestra_012-mesh-positions">
+          <float_array id="AllFinestra_012-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_012-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_012-mesh-normals">
+          <float_array id="AllFinestra_012-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_012-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_012-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_012-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_012-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_012-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_011-mesh" name="AllFinestra_011">
+      <mesh>
+        <source id="AllFinestra_011-mesh-positions">
+          <float_array id="AllFinestra_011-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_011-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_011-mesh-normals">
+          <float_array id="AllFinestra_011-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_011-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_011-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_011-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_011-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_011-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_010-mesh" name="AllFinestra_010">
+      <mesh>
+        <source id="AllFinestra_010-mesh-positions">
+          <float_array id="AllFinestra_010-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_010-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_010-mesh-normals">
+          <float_array id="AllFinestra_010-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_010-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_010-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_010-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_010-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_010-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_009-mesh" name="AllFinestra_009">
+      <mesh>
+        <source id="AllFinestra_009-mesh-positions">
+          <float_array id="AllFinestra_009-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_009-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_009-mesh-normals">
+          <float_array id="AllFinestra_009-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_009-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_009-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_009-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_009-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_009-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_008-mesh" name="AllFinestra_008">
+      <mesh>
+        <source id="AllFinestra_008-mesh-positions">
+          <float_array id="AllFinestra_008-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_008-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_008-mesh-normals">
+          <float_array id="AllFinestra_008-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_008-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_008-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_008-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_008-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_008-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_007-mesh" name="AllFinestra_007">
+      <mesh>
+        <source id="AllFinestra_007-mesh-positions">
+          <float_array id="AllFinestra_007-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_007-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_007-mesh-normals">
+          <float_array id="AllFinestra_007-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_007-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_007-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_007-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_007-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_007-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_006-mesh" name="AllFinestra_006">
+      <mesh>
+        <source id="AllFinestra_006-mesh-positions">
+          <float_array id="AllFinestra_006-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_006-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_006-mesh-normals">
+          <float_array id="AllFinestra_006-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_006-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_006-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_006-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_006-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_006-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestraIng-mesh" name="AllFinestraIng">
+      <mesh>
+        <source id="AllFinestraIng-mesh-positions">
+          <float_array id="AllFinestraIng-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestraIng-mesh-normals">
+          <float_array id="AllFinestraIng-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestraIng-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestraIng-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestraIng-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestraIng-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestraIng_007-mesh" name="AllFinestraIng_007">
+      <mesh>
+        <source id="AllFinestraIng_007-mesh-positions">
+          <float_array id="AllFinestraIng_007-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng_007-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestraIng_007-mesh-normals">
+          <float_array id="AllFinestraIng_007-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng_007-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestraIng_007-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestraIng_007-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestraIng_007-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestraIng_007-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestraIng_006-mesh" name="AllFinestraIng_006">
+      <mesh>
+        <source id="AllFinestraIng_006-mesh-positions">
+          <float_array id="AllFinestraIng_006-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng_006-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestraIng_006-mesh-normals">
+          <float_array id="AllFinestraIng_006-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng_006-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestraIng_006-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestraIng_006-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestraIng_006-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestraIng_006-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestraIng_005-mesh" name="AllFinestraIng_005">
+      <mesh>
+        <source id="AllFinestraIng_005-mesh-positions">
+          <float_array id="AllFinestraIng_005-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng_005-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestraIng_005-mesh-normals">
+          <float_array id="AllFinestraIng_005-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng_005-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestraIng_005-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestraIng_005-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestraIng_005-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestraIng_005-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestraIng_001-mesh" name="AllFinestraIng_001">
+      <mesh>
+        <source id="AllFinestraIng_001-mesh-positions">
+          <float_array id="AllFinestraIng_001-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng_001-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestraIng_001-mesh-normals">
+          <float_array id="AllFinestraIng_001-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng_001-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestraIng_001-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestraIng_001-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestraIng_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestraIng_001-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestraIng_003-mesh" name="AllFinestraIng_003">
+      <mesh>
+        <source id="AllFinestraIng_003-mesh-positions">
+          <float_array id="AllFinestraIng_003-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng_003-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestraIng_003-mesh-normals">
+          <float_array id="AllFinestraIng_003-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng_003-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestraIng_003-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestraIng_003-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestraIng_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestraIng_003-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestraIng_002-mesh" name="AllFinestraIng_002">
+      <mesh>
+        <source id="AllFinestraIng_002-mesh-positions">
+          <float_array id="AllFinestraIng_002-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng_002-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestraIng_002-mesh-normals">
+          <float_array id="AllFinestraIng_002-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestraIng_002-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestraIng_002-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestraIng_002-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestraIng_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestraIng_002-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="alluminioScalette-mesh" name="alluminioScalette">
+      <mesh>
+        <source id="alluminioScalette-mesh-positions">
+          <float_array id="alluminioScalette-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#alluminioScalette-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="alluminioScalette-mesh-normals">
+          <float_array id="alluminioScalette-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#alluminioScalette-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="alluminioScalette-mesh-vertices">
+          <input semantic="POSITION" source="#alluminioScalette-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004-material" count="6">
+          <input semantic="VERTEX" source="#alluminioScalette-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#alluminioScalette-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="alluminioScalette_001-mesh" name="alluminioScalette_001">
+      <mesh>
+        <source id="alluminioScalette_001-mesh-positions">
+          <float_array id="alluminioScalette_001-mesh-positions-array" count="24">1 -1 -1 1 -1 1 1 1 -1 1 1 1 -0.3805402 1 -1 -0.3805402 1 1 -0.3805402 -1 -1 -0.3805402 -1 1</float_array>
+          <technique_common>
+            <accessor source="#alluminioScalette_001-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="alluminioScalette_001-mesh-normals">
+          <float_array id="alluminioScalette_001-mesh-normals-array" count="15">0 1 0 1 0 0 0 0 -1 0 0 1 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#alluminioScalette_001-mesh-normals-array" count="5" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="alluminioScalette_001-mesh-vertices">
+          <input semantic="POSITION" source="#alluminioScalette_001-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_043-material" count="5">
+          <input semantic="VERTEX" source="#alluminioScalette_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#alluminioScalette_001-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 </vcount>
+          <p>4 0 5 0 3 0 2 0 2 1 3 1 1 1 0 1 4 2 2 2 0 2 6 2 3 3 5 3 7 3 1 3 0 4 1 4 7 4 6 4</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_047-mesh" name="AllFinestra_047">
+      <mesh>
+        <source id="AllFinestra_047-mesh-positions">
+          <float_array id="AllFinestra_047-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -7.37136 -1 1 -7.37136 1 -1 -7.37136 1 1 -7.37136</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_047-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_047-mesh-normals">
+          <float_array id="AllFinestra_047-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_047-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_047-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_047-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_001-material" count="18">
+          <input semantic="VERTEX" source="#AllFinestra_047-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_047-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 4 3 0 3 8 3 10 3 7 4 3 4 1 4 5 4 10 4 8 4 12 4 14 4 2 1 6 1 11 1 9 1 0 0 2 0 9 0 8 0 6 2 4 2 10 2 11 2 13 1 15 1 19 1 17 1 9 4 11 4 15 4 13 4 11 4 10 4 14 4 15 4 8 4 9 4 13 4 12 4 17 5 19 5 18 5 16 5 15 2 14 2 18 2 19 2 12 0 13 0 17 0 16 0 14 3 12 3 16 3 18 3</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_046-mesh" name="AllFinestra_046">
+      <mesh>
+        <source id="AllFinestra_046-mesh-positions">
+          <float_array id="AllFinestra_046-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -7.37136 -1 1 -7.37136 1 -1 -7.37136 1 1 -7.37136</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_046-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_046-mesh-normals">
+          <float_array id="AllFinestra_046-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_046-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_046-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_046-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_001-material" count="18">
+          <input semantic="VERTEX" source="#AllFinestra_046-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_046-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 4 3 0 3 8 3 10 3 7 4 3 4 1 4 5 4 10 4 8 4 12 4 14 4 2 1 6 1 11 1 9 1 0 0 2 0 9 0 8 0 6 2 4 2 10 2 11 2 13 1 15 1 19 1 17 1 9 4 11 4 15 4 13 4 11 4 10 4 14 4 15 4 8 4 9 4 13 4 12 4 17 5 19 5 18 5 16 5 15 2 14 2 18 2 19 2 12 0 13 0 17 0 16 0 14 3 12 3 16 3 18 3</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_045-mesh" name="AllFinestra_045">
+      <mesh>
+        <source id="AllFinestra_045-mesh-positions">
+          <float_array id="AllFinestra_045-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -7.37136 -1 1 -7.37136 1 -1 -7.37136 1 1 -7.37136</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_045-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_045-mesh-normals">
+          <float_array id="AllFinestra_045-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_045-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_045-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_045-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_001-material" count="18">
+          <input semantic="VERTEX" source="#AllFinestra_045-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_045-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 4 3 0 3 8 3 10 3 7 4 3 4 1 4 5 4 10 4 8 4 12 4 14 4 2 1 6 1 11 1 9 1 0 0 2 0 9 0 8 0 6 2 4 2 10 2 11 2 13 1 15 1 19 1 17 1 9 4 11 4 15 4 13 4 11 4 10 4 14 4 15 4 8 4 9 4 13 4 12 4 17 5 19 5 18 5 16 5 15 2 14 2 18 2 19 2 12 0 13 0 17 0 16 0 14 3 12 3 16 3 18 3</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_044-mesh" name="AllFinestra_044">
+      <mesh>
+        <source id="AllFinestra_044-mesh-positions">
+          <float_array id="AllFinestra_044-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -7.37136 -1 1 -7.37136 1 -1 -7.37136 1 1 -7.37136</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_044-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_044-mesh-normals">
+          <float_array id="AllFinestra_044-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_044-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_044-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_044-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_001-material" count="18">
+          <input semantic="VERTEX" source="#AllFinestra_044-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_044-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 4 3 0 3 8 3 10 3 7 4 3 4 1 4 5 4 10 4 8 4 12 4 14 4 2 1 6 1 11 1 9 1 0 0 2 0 9 0 8 0 6 2 4 2 10 2 11 2 13 1 15 1 19 1 17 1 9 4 11 4 15 4 13 4 11 4 10 4 14 4 15 4 8 4 9 4 13 4 12 4 17 5 19 5 18 5 16 5 15 2 14 2 18 2 19 2 12 0 13 0 17 0 16 0 14 3 12 3 16 3 18 3</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_023-mesh" name="AllFinestra_023">
+      <mesh>
+        <source id="AllFinestra_023-mesh-positions">
+          <float_array id="AllFinestra_023-mesh-positions-array" count="24">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_023-mesh-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_023-mesh-normals">
+          <float_array id="AllFinestra_023-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_023-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_023-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_023-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_001-material" count="6">
+          <input semantic="VERTEX" source="#AllFinestra_023-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_023-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 2 4 6 4 4 4 0 4 7 5 3 5 1 5 5 5</p>
+        </polylist>
+      </mesh>
+    </geometry>
+    <geometry id="AllFinestra_019-mesh" name="AllFinestra_019">
+      <mesh>
+        <source id="AllFinestra_019-mesh-positions">
+          <float_array id="AllFinestra_019-mesh-positions-array" count="60">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -1.47102 -1 1 -1.47102 1 -1 -1.47102 1 1 -1.47102 -1 -1 -7.37136 -1 1 -7.37136 1 -1 -7.37136 1 1 -7.37136</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_019-mesh-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="AllFinestra_019-mesh-normals">
+          <float_array id="AllFinestra_019-mesh-normals-array" count="18">-1 0 0 0 1 0 1 0 0 0 -1 0 0 0 1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#AllFinestra_019-mesh-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="AllFinestra_019-mesh-vertices">
+          <input semantic="POSITION" source="#AllFinestra_019-mesh-positions"/>
+        </vertices>
+        <polylist material="Alluminio_004_001-material" count="18">
+          <input semantic="VERTEX" source="#AllFinestra_019-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#AllFinestra_019-mesh-normals" offset="1"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>0 0 1 0 3 0 2 0 2 1 3 1 7 1 6 1 6 2 7 2 5 2 4 2 4 3 5 3 1 3 0 3 4 3 0 3 8 3 10 3 7 4 3 4 1 4 5 4 10 4 8 4 12 4 14 4 2 1 6 1 11 1 9 1 0 0 2 0 9 0 8 0 6 2 4 2 10 2 11 2 13 1 15 1 19 1 17 1 9 4 11 4 15 4 13 4 11 4 10 4 14 4 15 4 8 4 9 4 13 4 12 4 17 5 19 5 18 5 16 5 15 2 14 2 18 2 19 2 12 0 13 0 17 0 16 0 14 3 12 3 16 3 18 3</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="AllIng_023" name="AllIng_023" type="NODE">
+        <matrix sid="transform">-1.01829e-7 -0.02 0 12.39906 0.625021 -3.25841e-9 0 4.305117 0 0 0.09674785 0.09792963 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_023-mesh" name="AllIng_023">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_056-material" target="#Alluminio_056-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_022" name="AllIng_022" type="NODE">
+        <matrix sid="transform">-8.86405e-8 -0.02 0 12.39906 0.5440713 -3.25841e-9 0 0.6769557 0 0 0.09671695 0.09936109 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_022-mesh" name="AllIng_022">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_020" name="AllIng_020" type="NODE">
+        <matrix sid="transform">-8.86405e-8 -0.02 0 12.39906 0.5440713 -3.25841e-9 0 1.831045 0 0 0.06706787 1.859176 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_020-mesh" name="AllIng_020">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_019" name="AllIng_019" type="NODE">
+        <matrix sid="transform">-8.86405e-8 -0.02 0 12.39906 0.5440713 -3.25841e-9 0 1.831045 0 0 0.09671695 0.09936109 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_019-mesh" name="AllIng_019">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_043" name="AllFinestra_043" type="NODE">
+        <matrix sid="transform">0.03 0 0 -5.679305 0 0.02 0 -5.071745 0 0 0.35 2.61585 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_043-mesh" name="AllFinestra_043">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_042" name="AllFinestra_042" type="NODE">
+        <matrix sid="transform">0.03 0 0 -6.834907 0 0.02 0 -5.071745 0 0 0.35 2.61585 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_042-mesh" name="AllFinestra_042">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_018" name="AllIng_018" type="NODE">
+        <matrix sid="transform">-4.88762e-9 -0.02 0 12.39904 0.03 -3.25841e-9 0 1.25706 0 0 0.3585667 0.3485667 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_018-mesh" name="AllIng_018">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_012" name="AllIng_012" type="NODE">
+        <matrix sid="transform">-4.88762e-9 -0.02 0 12.39904 0.03 -3.25841e-9 0 2.400575 0 0 0.3585667 0.3485667 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_012-mesh" name="AllIng_012">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_041" name="AllFinestra_041" type="NODE">
+        <matrix sid="transform">2.125303 0 0 -9.018519 0 0.02 0 -5.074882 0 0 0.025 2.324772 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_041-mesh" name="AllFinestra_041">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_005" name="AllFinestra_005" type="NODE">
+        <matrix sid="transform">1.35 0 0 9.943104 0 0.02 0 -5.07121 0 0 0.025 1.213304 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_005-mesh" name="AllFinestra_005">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_040" name="AllFinestra_040" type="NODE">
+        <matrix sid="transform">1.35 0 0 9.943104 0 0.02 0 -5.07121 0 0 0.025 2.217279 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_040-mesh" name="AllFinestra_040">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_039" name="AllFinestra_039" type="NODE">
+        <matrix sid="transform">0.02 0 0 9.513482 0 0.02 0 -5.071745 0 0 0.5240307 1.71703 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_039-mesh" name="AllFinestra_039">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_038" name="AllFinestra_038" type="NODE">
+        <matrix sid="transform">0.02 0 0 10.37562 0 0.02 0 -5.071745 0 0 0.5240307 1.71703 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_038-mesh" name="AllFinestra_038">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_029-material" target="#Alluminio_029-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_037" name="AllFinestra_037" type="NODE">
+        <matrix sid="transform">0.02 0 0 9.473359 0 0.02 0 -5.071745 0 0 0.5240307 1.71703 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_037-mesh" name="AllFinestra_037">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_036" name="AllFinestra_036" type="NODE">
+        <matrix sid="transform">0.02 0 0 10.41289 0 0.02 0 -5.071745 0 0 0.5240307 1.71703 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_036-mesh" name="AllFinestra_036">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_027-material" target="#Alluminio_027-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_035" name="AllFinestra_035" type="NODE">
+        <matrix sid="transform">0.04 0 0 8.589276 0 0.02 0 -5.071745 0 0 0.5240307 1.71703 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_035-mesh" name="AllFinestra_035">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_026-material" target="#Alluminio_026-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_034" name="AllFinestra_034" type="NODE">
+        <matrix sid="transform">0.04 0 0 11.28928 0 0.02 0 -5.071745 0 0 0.5240307 1.71703 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_034-mesh" name="AllFinestra_034">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_033" name="AllFinestra_033" type="NODE">
+        <matrix sid="transform">0.04 0 0 -7.999501 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_033-mesh" name="AllFinestra_033">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_032" name="AllFinestra_032" type="NODE">
+        <matrix sid="transform">0.04 0 0 -11.17959 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_032-mesh" name="AllFinestra_032">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_031" name="AllFinestra_031" type="NODE">
+        <matrix sid="transform">0.04 0 0 -10.17739 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_031-mesh" name="AllFinestra_031">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_030" name="AllFinestra_030" type="NODE">
+        <matrix sid="transform">0.04 0 0 -9.104781 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_030-mesh" name="AllFinestra_030">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_029" name="AllFinestra_029" type="NODE">
+        <matrix sid="transform">2 0 0 -9.228069 0 0.02 0 -5.074882 0 0 0.025 2.971433 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_029-mesh" name="AllFinestra_029">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_028" name="AllFinestra_028" type="NODE">
+        <matrix sid="transform">0.04 0 0 12.07583 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_028-mesh" name="AllFinestra_028">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_009-material" target="#Alluminio_009-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_027" name="AllFinestra_027" type="NODE">
+        <matrix sid="transform">0.04 0 0 7.319959 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_027-mesh" name="AllFinestra_027">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_008-material" target="#Alluminio_008-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_026" name="AllFinestra_026" type="NODE">
+        <matrix sid="transform">0.04 0 0 6.840849 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_026-mesh" name="AllFinestra_026">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_007-material" target="#Alluminio_007-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_025" name="AllFinestra_025" type="NODE">
+        <matrix sid="transform">0.04 0 0 3.038143 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_025-mesh" name="AllFinestra_025">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_003-material" target="#Alluminio_003-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_024" name="AllFinestra_024" type="NODE">
+        <matrix sid="transform">0.04 0 0 -2.138208 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_024-mesh" name="AllFinestra_024">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_002-material" target="#Alluminio_002-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_020" name="AllFinestra_020" type="NODE">
+        <matrix sid="transform">0.04 0 0 -6.903938 0 0.02 0 -5.071745 0 0 0.35 2.61585 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_020-mesh" name="AllFinestra_020">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_022" name="AllFinestra_022" type="NODE">
+        <matrix sid="transform">0.04 0 0 -5.608806 0 0.02 0 -5.071745 0 0 0.35 2.61585 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_022-mesh" name="AllFinestra_022">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_021" name="AllFinestra_021" type="NODE">
+        <matrix sid="transform">0.04 0 0 -4.035933 0 0.02 0 -5.071745 0 0 0.35 2.61585 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_021-mesh" name="AllFinestra_021">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_008" name="AllIng_008" type="NODE">
+        <matrix sid="transform">2.4401 0 0 -4.914064 0 0.02 0 -5.070849 0 0 0.075 2.058066 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_008-mesh" name="AllIng_008">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng" name="AllIng" type="NODE">
+        <matrix sid="transform">-6.51683e-9 -0.02 0 12.39889 0.04 -3.25841e-9 0 1.185645 0 0 0.3585667 0.3467943 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng-mesh" name="AllIng">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_007" name="AllIng_007" type="NODE">
+        <matrix sid="transform">-6.51683e-9 -0.02 0 12.39904 0.04 -3.25841e-9 0 3.661851 0 0 0.3599789 0.3490458 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_007-mesh" name="AllIng_007">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_006" name="AllIng_006" type="NODE">
+        <matrix sid="transform">-6.51683e-9 -0.02 0 12.39776 0.04 -3.25841e-9 0 4.934603 0 0 0.3592985 0.3491497 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_006-mesh" name="AllIng_006">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_005" name="AllIng_005" type="NODE">
+        <matrix sid="transform">-6.51683e-9 -0.02 0 12.39776 0.04 -3.25841e-9 0 0.1729546 0 0 0.3587079 0.3482497 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_005-mesh" name="AllIng_005">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_004" name="AllIng_004" type="NODE">
+        <matrix sid="transform">-3.88836e-7 -0.02 0 12.3979 2.38666 -3.25841e-9 0 2.547063 0 0 0.025 2.97194 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_004-mesh" name="AllIng_004">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_003" name="AllIng_003" type="NODE">
+        <matrix sid="transform">-6.51683e-9 -0.02 0 12.39776 0.04 -3.25841e-9 0 4.938265 0 0 0.35 2.368579 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_003-mesh" name="AllIng_003">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_002" name="AllIng_002" type="NODE">
+        <matrix sid="transform">-6.51683e-9 -0.02 0 12.39776 0.04 -3.25841e-9 0 0.1729546 0 0 0.35 2.368579 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_002-mesh" name="AllIng_002">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllIng_001" name="AllIng_001" type="NODE">
+        <matrix sid="transform">-3.97543e-7 -0.02 0 12.39768 2.4401 -3.25841e-9 0 2.543823 0 0 0.05850516 1.95723 0 0 0 1</matrix>
+        <instance_geometry url="#AllIng_001-mesh" name="AllIng_001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra" name="AllFinestra" type="NODE">
+        <matrix sid="transform">0.04 0 0 0.2331619 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra-mesh" name="AllFinestra">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio-material" target="#Alluminio-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_004" name="AllFinestra_004" type="NODE">
+        <matrix sid="transform">2.5 0 0 0.2594366 0 0.02 0 -5.072062 0 0 0.025 2.323242 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_004-mesh" name="AllFinestra_004">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_002" name="AllFinestra_002" type="NODE">
+        <matrix sid="transform">0.04 0 0 -1.029869 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_002-mesh" name="AllFinestra_002">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio-material" target="#Alluminio-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_003" name="AllFinestra_003" type="NODE">
+        <matrix sid="transform">0.04 0 0 1.530758 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_003-mesh" name="AllFinestra_003">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio-material" target="#Alluminio-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_001" name="AllFinestra_001" type="NODE">
+        <matrix sid="transform">2.5 0 0 0.2210188 0 0.02 0 -5.071253 0 0 0.025 2.971433 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_001-mesh" name="AllFinestra_001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_014" name="AllFinestra_014" type="NODE">
+        <matrix sid="transform">2.5 0 0 9.605721 0 0.02 0 -5.071793 0 0 0.025 2.971433 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_014-mesh" name="AllFinestra_014">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_013" name="AllFinestra_013" type="NODE">
+        <matrix sid="transform">0.04 0 0 4.338945 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_013-mesh" name="AllFinestra_013">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_012" name="AllFinestra_012" type="NODE">
+        <matrix sid="transform">0.04 0 0 5.665076 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_012-mesh" name="AllFinestra_012">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_011" name="AllFinestra_011" type="NODE">
+        <matrix sid="transform">2 0 0 4.946681 0 0.02 0 -5.071844 0 0 0.025 2.323242 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_011-mesh" name="AllFinestra_011">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_010" name="AllFinestra_010" type="NODE">
+        <matrix sid="transform">2 0 0 4.908263 0 0.02 0 -5.071342 0 0 0.025 2.971433 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_010-mesh" name="AllFinestra_010">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_009" name="AllFinestra_009" type="NODE">
+        <matrix sid="transform">0.04 0 0 8.354833 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_009-mesh" name="AllFinestra_009">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_008" name="AllFinestra_008" type="NODE">
+        <matrix sid="transform">0.04 0 0 9.617864 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_008-mesh" name="AllFinestra_008">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_007" name="AllFinestra_007" type="NODE">
+        <matrix sid="transform">0.04 0 0 10.91546 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_007-mesh" name="AllFinestra_007">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_006" name="AllFinestra_006" type="NODE">
+        <matrix sid="transform">2.5 0 0 9.644138 0 0.02 0 -5.071846 0 0 0.025 2.323242 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_006-mesh" name="AllFinestra_006">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestraIng" name="AllFinestraIng" type="NODE">
+        <matrix sid="transform">-6.51683e-9 -0.02 0 12.37832 0.04 -3.25841e-9 0 -1.372555 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestraIng-mesh" name="AllFinestraIng">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestraIng_007" name="AllFinestraIng_007" type="NODE">
+        <matrix sid="transform">-6.51683e-9 -0.02 0 12.37832 0.04 -3.25841e-9 0 -2.626402 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestraIng_007-mesh" name="AllFinestraIng_007">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestraIng_006" name="AllFinestraIng_006" type="NODE">
+        <matrix sid="transform">-6.51683e-9 -0.02 0 12.37832 0.04 -3.25841e-9 0 -3.752664 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestraIng_006-mesh" name="AllFinestraIng_006">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestraIng_005" name="AllFinestraIng_005" type="NODE">
+        <matrix sid="transform">-6.51683e-9 -0.02 0 12.37832 0.04 -3.25841e-9 0 -4.780003 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestraIng_005-mesh" name="AllFinestraIng_005">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestraIng_001" name="AllFinestraIng_001" type="NODE">
+        <matrix sid="transform">-4.07302e-9 -0.02 0 12.37832 0.025 -3.25841e-9 0 -0.3936051 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestraIng_001-mesh" name="AllFinestraIng_001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestraIng_003" name="AllFinestraIng_003" type="NODE">
+        <matrix sid="transform">-3.66327e-7 -0.02 0 12.37831 2.2485 -3.25841e-9 0 -2.604608 0 0 0.025 2.323242 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestraIng_003-mesh" name="AllFinestraIng_003">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestraIng_002" name="AllFinestraIng_002" type="NODE">
+        <matrix sid="transform">-3.66327e-7 -0.02 0 12.37849 2.2485 -3.25841e-9 0 -2.604608 0 0 0.025 2.971433 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestraIng_002-mesh" name="AllFinestraIng_002">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="alluminioScalette" name="alluminioScalette" type="NODE">
+        <matrix sid="transform">2.25 0 0 -4.792032 0 0.02 0 -5.072717 0 0 0.025 2.971816 0 0 0 1</matrix>
+        <instance_geometry url="#alluminioScalette-mesh" name="alluminioScalette">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004-material" target="#Alluminio_004-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="alluminioScalette_001" name="alluminioScalette_001" type="NODE">
+        <matrix sid="transform">2.25 0 0 -4.792032 0 0.02 0 -5.072717 0 0 0.025 0.0628078 0 0 0 1</matrix>
+        <instance_geometry url="#alluminioScalette_001-mesh" name="alluminioScalette_001">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_043-material" target="#Alluminio_043-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_047" name="AllFinestra_047" type="NODE">
+        <matrix sid="transform">5.48984e-9 -0.02 -2.62149e-8 -7.195125 0 -3.25841e-9 0.1609058 -6.134066 -0.07271512 -1.50996e-9 -1.97917e-15 0.9840951 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_047-mesh" name="AllFinestra_047">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_001-material" target="#Alluminio_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_046" name="AllFinestra_046" type="NODE">
+        <matrix sid="transform">5.48984e-9 -0.02 -2.62149e-8 -7.195125 0 -3.25841e-9 0.1609058 -6.134066 -0.07271512 -1.50996e-9 -1.97917e-15 1.905539 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_046-mesh" name="AllFinestra_046">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_001-material" target="#Alluminio_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_045" name="AllFinestra_045" type="NODE">
+        <matrix sid="transform">-1.18468e-8 -0.02 0 -7.195125 0.07271512 -3.25841e-9 0 -6.015265 0 0 0.1609058 1.850016 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_045-mesh" name="AllFinestra_045">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_001-material" target="#Alluminio_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_044" name="AllFinestra_044" type="NODE">
+        <matrix sid="transform">-1.18468e-8 -0.02 0 -7.195125 0.07271512 -3.25841e-9 0 -7.310276 0 0 0.1609058 1.850016 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_044-mesh" name="AllFinestra_044">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_001-material" target="#Alluminio_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_023" name="AllFinestra_023" type="NODE">
+        <matrix sid="transform">0.04 0 0 2.56284 0 0.02 0 -5.071745 0 0 0.35 2.644239 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_023-mesh" name="AllFinestra_023">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_001-material" target="#Alluminio_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="AllFinestra_019" name="AllFinestra_019" type="NODE">
+        <matrix sid="transform">0.04 0 0 -2.616342 0 0.02 0 -5.071745 0 0 0.35 2.61585 0 0 0 1</matrix>
+        <instance_geometry url="#AllFinestra_019-mesh" name="AllFinestra_019">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Alluminio_004_001-material" target="#Alluminio_004_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
