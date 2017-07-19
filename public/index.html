@@ -100,9 +100,15 @@
       <a-asset-item id="monitor4" src="DynamicObject/Monitor4.dae"></a-asset-item>-->
       <!--assets lampade-->
       <a-asset-item id="lampade" src="MobiliFissi/Lampade.dae"></a-asset-item>
+      <!--assets tastiere-->
+      <a-asset-item id="tastiere" src="MobiliFissi/TastiereEvonove.dae"></a-asset-item>
+      <!--assets monitor-->
+      <a-asset-item id="monitor" src="MobiliFissi/MonitorEvonove.dae"></a-asset-item>
+      <!--assets monitor-->
+      <a-asset-item id="sedie" src="MobiliFissi/SedieEvonove.dae"></a-asset-item>
+       <!--assets quadri-->
+      <a-asset-item id="quadri" src="MobiliFissi/QuadriEvonove.dae"></a-asset-item>
 
-      <a-asset-item id="tastiera1" src="DynamicObject/Tastiera1.dae"></a-asset-item>
-      <a-asset-item id="tastiera" src="DynamicObject/Tastiera1.obj"></a-asset-item>
       <a-asset-item id="glassTransp-obj" src="EvonoveGlassTransparent.obj"></a-asset-item>
       <a-asset-item id="glassOpaco-obj" src="EvonoveGlassOpaco.obj"></a-asset-item>
       <a-asset-item id="Maniglie-obj" src="ManiglieMetallo.obj"></a-asset-item>
@@ -113,9 +119,8 @@
 
     </a-assets>
 
-      <!--<a-entity vive-controls="hand: left" mixin="controller"></a-entity>
-      <a-entity vive-controls="hand: right" mixin="controller"></a-entity>-->
-      <a-entity camera position="5 1 0" rotation="0 180 0"universal-controls></a-entity>
+
+    
 
     
     <a-entity obj-model="obj: #Maniglie-obj;" material="color: #A5A5A5; metalness: 0.8;"></a-entity>
@@ -198,15 +203,24 @@
     <!--stanza lavagna-->
     <a-collada-model static-body src="#mobileLavagna"></a-collada-model>
     <!--lampade-->
-    <a-collada-model src="#lampade"></a-collada-model>
+    <!--<a-collada-model src="#lampade"></a-collada-model>-->
     <!--logo evonove-->
-    <a-collada-model static-body src="#evonoveLogo"></a-collada-model>
+    <!--<a-collada-model static-body src="#evonoveLogo"></a-collada-model>-->
+
+    <!--tastiere-->
+    <a-collada-model  src="#tastiere"></a-collada-model>
+    <!--monitor-->
+    <a-collada-model  src="#monitor"></a-collada-model>
+    <!--seide-->
+    <a-collada-model  src="#sedie"></a-collada-model>
+    <!--quadri-->
+    <a-collada-model  src="#quadri"></a-collada-model>
 
     <!--prova ingresso-->
-    <a-collada-model static-body src="#provaIngresso"></a-collada-model>
-    <a-collada-model id="static-body" position="12.399 0.9 -3.59" static-body src="#provaIngressoMetallo"></a-collada-model>
+    <!--<a-collada-model static-body src="#provaIngresso"></a-collada-model>
+    <a-collada-model id="static-body" position="12.399 0.9 -3.59" static-body src="#provaIngressoMetallo"></a-collada-model>-->
     <!--porta ingresso-->
-    <a-collada-model position="10 1 -2.657"
+    <!--<a-collada-model position="10 1 -2.657"
                      dynamic-body 
                      constraint="type: hinge;
                                 target: #static-body;
@@ -215,13 +229,14 @@
                                 pivot: 0.5 0.0 0.05;
                                 targetPivot: 1 0.0 1" 
                      src="#portaIngresso">
-    </a-collada-model>
+    </a-collada-model>-->
     <!--vetri trasparenti-->
     <a-entity obj-model="obj: #glassTransp-obj;" material="color: #87DFFF; transparent: true; opacity: 0.2;"></a-entity>
 
     <a-entity obj-model="obj: #glassOpaco-obj;" material="color: #87DFFF; transparent: false; opacity: 0.9;"></a-entity>
 
-
+    <a-entity vive-controls="hand: left" mixin="controller"></a-entity>
+    <a-entity vive-controls="hand: right" mixin="controller"></a-entity>
 
     
 
