@@ -113,23 +113,18 @@
       <!--assets stanza lavagna-->
       <a-asset-item id="mobileLavagna" src="MobiliFissi/MobileLavagna.dae"></a-asset-item>
       <!--assets Evonove Logo-->
-      <a-asset-item id="evonoveLogo-obj" src="MobiliFissi/EvonoveLogo.obj"></a-asset-item>
-      <a-asset-item id="evonoveLogo-mtl" src="MobiliFissi/EvonoveLogo.mtl"></a-asset-item>
-      <!--ASSETS DYNAMIC OBJECT-->
-      <a-asset-item id="monitor1" src="DynamicObject/Monitor1.dae"></a-asset-item>
+      <!--<a-asset-item id="evonoveLogo-obj" src="MobiliFissi/EvonoveLogo.obj"></a-asset-item>
+      <a-asset-item id="evonoveLogo-mtl" src="MobiliFissi/EvonoveLogo.mtl"></a-asset-item>-->
       <!--Assets porta ingresso-->
       <a-asset-item id="portaIngresso" src="PortaIngresso.dae"></a-asset-item>
-      <!--<a-asset-item id="monitor2" src="DynamicObject/Monitor2.dae"></a-asset-item>
-      <a-asset-item id="monitor3" src="DynamicObject/Monitor3.dae"></a-asset-item>
-      <a-asset-item id="monitor4" src="DynamicObject/Monitor4.dae"></a-asset-item>-->
       <!--assets lampade-->
-      <a-asset-item id="lampadeOfficina-obj" src="MobiliFissi/LampadeOfficina.obj"></a-asset-item>
-      <a-asset-item id="lampadeOfficina-mtl" src="MobiliFissi/LampadeOfficina.mtl"></a-asset-item>
+      <!--<a-asset-item id="lampadeOfficina-obj" src="MobiliFissi/LampadeOfficina.obj"></a-asset-item>
+      <a-asset-item id="lampadeOfficina-mtl" src="MobiliFissi/LampadeOfficina.mtl"></a-asset-item>-->
       <!--assets tastiere-->
       <a-asset-item id="tastiere" src="MobiliFissi/TastiereEvonove.dae"></a-asset-item>
       <!--assets monitor-->
       <a-asset-item id="monitor" src="MobiliFissi/MonitorEvonove.dae"></a-asset-item>
-      <!--assets monitor-->
+      <!--assets Sedie-->
       <a-asset-item id="sedie" src="MobiliFissi/SedieEvonove.dae"></a-asset-item>
        <!--assets quadri-->
       <a-asset-item id="quadriIngresso-obj" src="MobiliFissi/QuadriIngresso.obj"></a-asset-item>
@@ -237,9 +232,9 @@
     <!--stanza lavagna-->
     <a-collada-model static-body src="#mobileLavagna"></a-collada-model>
     <!--lampade-->
-    <a-obj-model static-body src="#lampadeOfficina-obj" mtl="#lampadeOfficina-mtl" materlai="shape: flat"></a-obj-model>
+    <!--<a-obj-model static-body src="#lampadeOfficina-obj" mtl="#lampadeOfficina-mtl" materlai="shape: flat"></a-obj-model>-->
     <!--logo evonove-->
-    <a-obj-model static-body src="#evonoveLogo-obj" mtl="#evonoveLogo-mtl" materlai="shape: flat"></a-obj-model>
+    <!--<a-obj-model static-body src="#evonoveLogo-obj" mtl="#evonoveLogo-mtl" materlai="shape: flat"></a-obj-model>-->
 
     <!--tastiere-->
     <a-collada-model  src="#tastiere"></a-collada-model>
@@ -253,29 +248,13 @@
     <a-obj-model static-body src="#quadriIngresso-obj" mtl="#quadriIngresso-mtl" materlai="shape: flat"></a-obj-model>
     <a-obj-model static-body src="#quadriUfficio-obj" mtl="#quadriUfficio-mtl" materlai="shape: flat"></a-obj-model>
 
-    <!--prova ingresso-->
-    <!--<a-collada-model static-body src="#provaIngresso"></a-collada-model>
-    <a-collada-model id="static-body" position="12.399 0.9 -3.59" static-body src="#provaIngressoMetallo"></a-collada-model>-->
-    <!--porta ingresso-->
-    <!--<a-collada-model position="10 1 -2.657"
-                     dynamic-body 
-                     constraint="type: hinge;
-                                target: #static-body;
-                                axis: 0 1 0;
-                                targetAxis: 0 1 0;
-                                pivot: 0.5 0.0 0.05;
-                                targetPivot: 1 0.0 1" 
-                     src="#portaIngresso">
-    </a-collada-model>-->
     <!--vetri trasparenti-->
     <a-entity obj-model="obj: #glassTransp-obj;" material="color: #87DFFF; transparent: true; opacity: 0.2;"></a-entity>
 
     <a-entity obj-model="obj: #glassOpaco-obj;" material="color: #87DFFF; transparent: false; opacity: 0.9;"></a-entity>
 
-    <a-entity vive-controls="hand: left" mixin="controller"></a-entity>
-    <a-entity vive-controls="hand: right" mixin="controller"></a-entity>
-
-    
+    <!--<a-entity vive-controls="hand: left" mixin="controller"></a-entity>
+    <a-entity vive-controls="hand: right" mixin="controller"></a-entity>-->
 
     <a-plane static-body rotation="-90 0 0" color="grey" repeat="50 50" width="100" height="100"></a-plane>
 
