@@ -1,0 +1,23 @@
+# Blender MTL File: 'EvonoveTry.blend'
+# Material Count: 2
+
+newmtl Esterno
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd ..\\textures\\esterno.jpg
+
+newmtl PareteInterno
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.660561 0.774283 0.752039
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1

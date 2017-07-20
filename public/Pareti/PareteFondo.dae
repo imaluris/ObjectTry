@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.78.0 commit date:2017-02-24, commit time:14:33, hash:e92f235283</authoring_tool>
     </contributor>
-    <created>2017-07-06T18:09:54</created>
-    <modified>2017-07-06T18:09:54</modified>
+    <created>2017-07-20T12:45:35</created>
+    <modified>2017-07-20T12:45:35</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -88,62 +88,63 @@
     </material>
   </library_materials>
   <library_geometries>
-    <geometry id="PareteFondo-mesh" name="PareteFondo">
+    <geometry id="Cube_053-mesh" name="Cube.053">
       <mesh>
-        <source id="PareteFondo-mesh-positions">
-          <float_array id="PareteFondo-mesh-positions-array" count="48">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 0.53 -1 1 0.53 1 1 0.53 1 -1 0.53 -1.042786 -1 1 -1.042786 1 1 -1.042786 -1 0.53 -1.042786 1 0.53</float_array>
+        <source id="Cube_053-mesh-positions">
+          <float_array id="Cube_053-mesh-positions-array" count="48">-1 -1 -1 -1 -1 1 -1 1 -1 -1 1 1 1 -1 -1 1 -1 1 1 1 -1 1 1 1 -1 -1 0.53 -1 1 0.53 1 1 0.53 1 -1 0.53 -1.042786 -1 1 -1.042786 1 1 -1.042786 -1 0.53 -1.042786 1 0.53</float_array>
           <technique_common>
-            <accessor source="#PareteFondo-mesh-positions-array" count="16" stride="3">
+            <accessor source="#Cube_053-mesh-positions-array" count="16" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="PareteFondo-mesh-normals">
-          <float_array id="PareteFondo-mesh-normals-array" count="18">0 0 1 0 1 0 1 0 0 0 -1 0 0 0 -1 -1 0 0</float_array>
+        <source id="Cube_053-mesh-normals">
+          <float_array id="Cube_053-mesh-normals-array" count="18">0 0 1 0 1 0 1 0 0 0 -1 0 0 0 -1 -1 0 0</float_array>
           <technique_common>
-            <accessor source="#PareteFondo-mesh-normals-array" count="6" stride="3">
+            <accessor source="#Cube_053-mesh-normals-array" count="6" stride="3">
               <param name="X" type="float"/>
               <param name="Y" type="float"/>
               <param name="Z" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <source id="PareteFondo-mesh-map-0">
-          <float_array id="PareteFondo-mesh-map-0-array" count="112">0 0 0 0 0 0 0 0 -0.8972201 0.1590131 -0.8972199 -0.1433714 1.897221 -0.1433712 1.897221 0.1590134 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.8972207 1.143371 -0.8972201 0.1590131 1.897221 0.1590134 1.89722 1.143371 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+        <source id="Cube_053-mesh-map">
+          <float_array id="Cube_053-mesh-map-array" count="112">0 0 0 0 0 0 0 0 -0.8972201 0.1590131 -0.8972199 -0.1433714 1.897221 -0.1433712 1.897221 0.1590134 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -0.8972207 1.143371 -0.8972201 0.1590131 1.897221 0.1590134 1.89722 1.143371 0 0 0 0 0 0 0 0 0.5940451 0.280973 0.5940451 -0.01944214 0.405955 -0.01944214 0.405955 0.2809731 0.9130976 0.9514565 0.9130976 0.6768899 0.9572036 0.6768899 0.9572036 0.9514565 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
           <technique_common>
-            <accessor source="#PareteFondo-mesh-map-0-array" count="56" stride="2">
+            <accessor source="#Cube_053-mesh-map-array" count="56" stride="2">
               <param name="S" type="float"/>
               <param name="T" type="float"/>
             </accessor>
           </technique_common>
         </source>
-        <vertices id="PareteFondo-mesh-vertices">
-          <input semantic="POSITION" source="#PareteFondo-mesh-positions"/>
+        <vertices id="Cube_053-mesh-vertices">
+          <input semantic="POSITION" source="#Cube_053-mesh-positions"/>
         </vertices>
-        <polylist material="PareteInterno-material" count="12">
-          <input semantic="VERTEX" source="#PareteFondo-mesh-vertices" offset="0"/>
-          <input semantic="NORMAL" source="#PareteFondo-mesh-normals" offset="1"/>
-          <input semantic="TEXCOORD" source="#PareteFondo-mesh-map-0" offset="2" set="0"/>
-          <vcount>4 4 4 4 4 4 4 4 4 4 4 4 </vcount>
-          <p>1 0 0 3 0 1 13 0 2 12 0 3 10 2 8 7 2 9 5 2 10 11 2 11 11 3 12 5 3 13 1 3 14 8 3 15 2 4 16 6 4 17 4 4 18 0 4 19 7 0 20 3 0 21 1 0 22 5 0 23 4 3 24 11 3 25 8 3 26 0 3 27 6 2 28 10 2 29 11 2 30 4 2 31 0 5 36 8 5 37 9 5 38 2 5 39 14 5 40 12 5 41 13 5 42 15 5 43 3 1 44 9 1 45 15 1 46 13 1 47 8 3 48 1 3 49 12 3 50 14 3 51 9 4 52 8 4 53 14 4 54 15 4 55</p>
+        <polylist material="PareteInterno-material" count="10">
+          <input semantic="VERTEX" source="#Cube_053-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_053-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_053-mesh-map" offset="2" set="0"/>
+          <vcount>4 4 4 4 4 4 4 4 4 4 </vcount>
+          <p>1 0 0 3 0 1 13 0 2 12 0 3 10 2 8 7 2 9 5 2 10 11 2 11 11 3 12 5 3 13 1 3 14 8 3 15 2 4 16 6 4 17 4 4 18 0 4 19 7 0 20 3 0 21 1 0 22 5 0 23 4 3 24 11 3 25 8 3 26 0 3 27 6 2 28 10 2 29 11 2 30 4 2 31 0 5 36 8 5 37 9 5 38 2 5 39 8 3 48 1 3 49 12 3 50 14 3 51 9 4 52 8 4 53 14 4 54 15 4 55</p>
         </polylist>
-        <polylist material="Esterno-material" count="2">
-          <input semantic="VERTEX" source="#PareteFondo-mesh-vertices" offset="0"/>
-          <input semantic="NORMAL" source="#PareteFondo-mesh-normals" offset="1"/>
-          <input semantic="TEXCOORD" source="#PareteFondo-mesh-map-0" offset="2" set="0"/>
-          <vcount>4 4 </vcount>
-          <p>9 1 4 3 1 5 7 1 6 10 1 7 2 1 32 9 1 33 10 1 34 6 1 35</p>
+        <polylist material="Esterno-material" count="4">
+          <input semantic="VERTEX" source="#Cube_053-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cube_053-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Cube_053-mesh-map" offset="2" set="0"/>
+          <vcount>4 4 4 4 </vcount>
+          <p>9 1 4 3 1 5 7 1 6 10 1 7 2 1 32 9 1 33 10 1 34 6 1 35 14 5 40 12 5 41 13 5 42 15 5 43 3 1 44 9 1 45 15 1 46 13 1 47</p>
         </polylist>
       </mesh>
     </geometry>
   </library_geometries>
+  <library_controllers/>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="PareteFondo" name="PareteFondo" type="NODE">
         <matrix sid="transform">-8.26823e-7 -0.2 0 -12.37092 5.075 -3.25841e-8 0 0.202407 0 0 1.5 1.503795 0 0 0 1</matrix>
-        <instance_geometry url="#PareteFondo-mesh" name="PareteFondo">
+        <instance_geometry url="#Cube_053-mesh" name="PareteFondo">
           <bind_material>
             <technique_common>
               <instance_material symbol="PareteInterno-material" target="#PareteInterno-material">

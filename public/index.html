@@ -3,7 +3,7 @@
     <script src="js/app.js"></script>
   </head>
   <body>
-    <a-scene physics="debug: true">
+    <a-scene physics="debug: true" light="defaultLightsEnabled: false">
     <a-assets>
       <!-- controller -->
       <a-mixin id="controller" super-hands sphere-collider="objects: #monitor, .cube" teleport-controls
@@ -12,11 +12,17 @@
       
       <!-- ASSETS PARETI -->
      
-      <a-asset-item id="muraIngresso" src="Pareti/PareteIngresso.dae"></a-asset-item>
-      <a-asset-item id="muraDestra" src="Pareti/PareteDestra.dae"></a-asset-item>
-      <a-asset-item id="muraFondo" src="Pareti/PareteFondo.dae"></a-asset-item>
-      <a-asset-item id="muraSinistraFondo" src="Pareti/PareteSinistraFondo.dae"></a-asset-item>
-      <a-asset-item id="muraSinistraInizio" src="Pareti/PareteSinistraInizio.dae"></a-asset-item>
+      <a-asset-item id="pareteIngresso-obj" src="Pareti/PareteIngresso.obj"></a-asset-item>
+      <a-asset-item id="pareteIngresso-mtl" src="Pareti/PareteIngresso.mtl"></a-asset-item>
+      <a-asset-item id="pareteDestra-obj" src="Pareti/PareteDestra.obj"></a-asset-item>
+      <a-asset-item id="pareteDestra-mtl" src="Pareti/PareteDestra.mtl"></a-asset-item>
+      <a-asset-item id="pareteFondo-obj" src="Pareti/PareteFondo.obj"></a-asset-item>
+      <a-asset-item id="pareteFondo-mtl" src="Pareti/PareteFondo.mtl"></a-asset-item>
+      <a-asset-item id="pareteSinistraFondo-obj" src="Pareti/PareteSinistraFondo.obj"></a-asset-item>
+      <a-asset-item id="pareteSinistraFondo-mtl" src="Pareti/PareteSinistraFondo.mtl"></a-asset-item>
+      <a-asset-item id="pareteSinistraInizio-obj" src="Pareti/PareteSinistraInizio.obj"></a-asset-item>
+      <a-asset-item id="pareteSinistraInizio-mtl" src="Pareti/PareteSinistraInizio.mtl"></a-asset-item>
+
       <!--assets colonne-->
       <a-asset-item id="colonnaPareteDestra" src="Pareti/ColonnaPareteDestra.dae"></a-asset-item>
       <a-asset-item id="colonnaSinistra1" src="Pareti/ColonnaSinistra1.dae"></a-asset-item>
@@ -24,18 +30,28 @@
       <a-asset-item id="colonnaSinistra3" src="Pareti/ColonnaSinistra3.dae"></a-asset-item>
       <a-asset-item id="colonnaSinistra4" src="Pareti/ColonnaSinistra4.dae"></a-asset-item>
       <!-- assets pareti cucina -->
-      <a-asset-item id="muraCucinaFondo" src="Pareti/PareteCucinaFondo.dae"></a-asset-item>
-      <a-asset-item id="muraCucinaSinistra" src="Pareti/PareteCucinaSinistra.dae"></a-asset-item>
-      <a-asset-item id="muraCucinaInizio" src="Pareti/PareteCucinaInizio.dae"></a-asset-item>
+      <a-asset-item id="pareteCucinaInizio-obj" src="Pareti/PareteCucinaInizio.obj"></a-asset-item>
+      <a-asset-item id="pareteCucinaInizio-mtl" src="Pareti/PareteCucinaInizio.mtl"></a-asset-item>
+      <a-asset-item id="pareteCucinaSinistra-obj" src="Pareti/PareteCucinaSinistra.obj"></a-asset-item>
+      <a-asset-item id="pareteCucinaSinistra-mtl" src="Pareti/PareteCucinaSinistra.mtl"></a-asset-item>
+      <a-asset-item id="pareteCucinaFondo-obj" src="Pareti/PareteCucinaFondo.obj"></a-asset-item>
+      <a-asset-item id="pareteCucinaFondo-mtl" src="Pareti/PareteCucinaFondo.mtl"></a-asset-item>
       <!-- assets pareti bagno -->
-      <a-asset-item id="pareteWcCentrale" src="Pareti/PareteWcCentrale.dae"></a-asset-item>
-      <a-asset-item id="pareteBagnoCentrale" src="Pareti/PareteBagnoCentrale.dae"></a-asset-item>
-      <a-asset-item id="pareteBagnoDestra" src="Pareti/PareteBagnoDestra.dae"></a-asset-item>
-      <a-asset-item id="pareteBagnoInizio" src="Pareti/PareteBagnoInizio.dae"></a-asset-item>
-      <a-asset-item id="pareteBagnoSinistra" src="Pareti/PareteBagnoSinistra.dae"></a-asset-item>
+      <a-asset-item id="pareteBagnoInizio-obj" src="Pareti/PareteBagnoInizio.obj"></a-asset-item>
+      <a-asset-item id="pareteBagnoInizio-mtl" src="Pareti/PareteBagnoInizio.mtl"></a-asset-item>
+      <a-asset-item id="pareteBagnoSinistra-obj" src="Pareti/PareteBagnoSinistra.obj"></a-asset-item>
+      <a-asset-item id="pareteBagnoSinistra-mtl" src="Pareti/PareteBagnoSinistra.mtl"></a-asset-item>
+      <a-asset-item id="pareteBagnoDestra-obj" src="Pareti/PareteBagnoDestra.obj"></a-asset-item>
+      <a-asset-item id="pareteBagnoDestra-mtl" src="Pareti/PareteBagnoDestra.mtl"></a-asset-item>
+      <a-asset-item id="pareteBagnoCentrale-obj" src="Pareti/PareteBagnoCentrale.obj"></a-asset-item>
+      <a-asset-item id="pareteBagnoCentrale-mtl" src="Pareti/PareteBagnoCentrale.mtl"></a-asset-item>
+      <a-asset-item id="pareteWcCentrale-obj" src="Pareti/PareteWcCentrale.obj"></a-asset-item>
+      <a-asset-item id="pareteWcCentrale-mtl" src="Pareti/PareteWcCentrale.mtl"></a-asset-item>
       <!-- assets pareti lavagna -->
-      <a-asset-item id="pareteLavagnaInizio" src="Pareti/PareteLavagnaInizio.dae"></a-asset-item>
-      <a-asset-item id="pareteLavagnaFine" src="Pareti/PareteLavagnaFine.dae"></a-asset-item>
+      <a-asset-item id="pareteLavagnaInizio-obj" src="Pareti/PareteLavagnaInizio.obj"></a-asset-item>
+      <a-asset-item id="pareteLavagnaInizio-mtl" src="Pareti/PareteLavagnaInizio.mtl"></a-asset-item>
+      <a-asset-item id="pareteLavagnaFine-obj" src="Pareti/PareteLavagnaFine.obj"></a-asset-item>
+      <a-asset-item id="pareteLavagnaFine-mtl" src="Pareti/PareteLavagnaFine.mtl"></a-asset-item>
       <!-- assets pareti call e officina -->
       <a-asset-item id="pareteCall" src="Pareti/PareteCall.dae"></a-asset-item>
       <a-asset-item id="pareteOfficina" src="Pareti/PareteOfficina.dae"></a-asset-item>
@@ -45,6 +61,13 @@
       <a-asset-item id="alluminioInterno" src="Pareti/AlluminioInterno.dae"></a-asset-item>
       <!--assets alluminio esterno-->
       <a-asset-item id="alluminioEsterno" src="Pareti/AlluminioEsterno.dae"></a-asset-item>
+      <!--assets soffitto-->
+      <a-asset-item id="soffitto-obj" src="Pareti/Soffitto.obj"></a-asset-item>
+      <a-asset-item id="soffitto-mtl" src="Pareti/Soffitto.mtl"></a-asset-item>
+      <!--assets luci-->
+      <a-asset-item id="luci" src="Pareti/Luci.dae"></a-asset-item>
+      <a-asset-item id="luci-obj" src="Pareti/Luci.obj"></a-asset-item>
+
 
       <!-- ASSETS MOBILI FISSI -->
       <!-- assets scrivanie ufficio -->
@@ -89,8 +112,9 @@
       <a-asset-item id="separeOfficina2" src="MobiliFissi/SepareOfficina2.dae"></a-asset-item>
       <!--assets stanza lavagna-->
       <a-asset-item id="mobileLavagna" src="MobiliFissi/MobileLavagna.dae"></a-asset-item>
-      <!--assets stanza lavagna-->
-      <a-asset-item id="evonoveLogo" src="MobiliFissi/EvonoveLogo.dae"></a-asset-item>
+      <!--assets Evonove Logo-->
+      <a-asset-item id="evonoveLogo-obj" src="MobiliFissi/EvonoveLogo.obj"></a-asset-item>
+      <a-asset-item id="evonoveLogo-mtl" src="MobiliFissi/EvonoveLogo.mtl"></a-asset-item>
       <!--ASSETS DYNAMIC OBJECT-->
       <a-asset-item id="monitor1" src="DynamicObject/Monitor1.dae"></a-asset-item>
       <!--Assets porta ingresso-->
@@ -99,7 +123,8 @@
       <a-asset-item id="monitor3" src="DynamicObject/Monitor3.dae"></a-asset-item>
       <a-asset-item id="monitor4" src="DynamicObject/Monitor4.dae"></a-asset-item>-->
       <!--assets lampade-->
-      <a-asset-item id="lampade" src="MobiliFissi/Lampade.dae"></a-asset-item>
+      <a-asset-item id="lampadeOfficina-obj" src="MobiliFissi/LampadeOfficina.obj"></a-asset-item>
+      <a-asset-item id="lampadeOfficina-mtl" src="MobiliFissi/LampadeOfficina.mtl"></a-asset-item>
       <!--assets tastiere-->
       <a-asset-item id="tastiere" src="MobiliFissi/TastiereEvonove.dae"></a-asset-item>
       <!--assets monitor-->
@@ -107,7 +132,14 @@
       <!--assets monitor-->
       <a-asset-item id="sedie" src="MobiliFissi/SedieEvonove.dae"></a-asset-item>
        <!--assets quadri-->
-      <a-asset-item id="quadri" src="MobiliFissi/QuadriEvonove.dae"></a-asset-item>
+      <a-asset-item id="quadriIngresso-obj" src="MobiliFissi/QuadriIngresso.obj"></a-asset-item>
+      <a-asset-item id="quadriIngresso-mtl" src="MobiliFissi/QuadriIngresso.mtl"></a-asset-item>
+      <a-asset-item id="quadriUfficio-obj" src="MobiliFissi/QuadriUfficio.obj"></a-asset-item>
+      <a-asset-item id="quadriUfficio-mtl" src="MobiliFissi/QuadriUfficio.mtl"></a-asset-item>
+      <a-asset-item id="quadroRiunioni-obj" src="MobiliFissi/QuadroRiunioni.obj"></a-asset-item>
+      <a-asset-item id="quadroRiunioni-mtl" src="MobiliFissi/QuadroRiunioni.mtl"></a-asset-item>
+      <a-asset-item id="quadroOfficina-obj" src="MobiliFissi/QuadroOfficina.obj"></a-asset-item>
+      <a-asset-item id="quadroOfficina-mtl" src="MobiliFissi/QuadroOfficina.mtl"></a-asset-item>
 
       <a-asset-item id="glassTransp-obj" src="EvonoveGlassTransparent.obj"></a-asset-item>
       <a-asset-item id="glassOpaco-obj" src="EvonoveGlassOpaco.obj"></a-asset-item>
@@ -119,15 +151,16 @@
 
     </a-assets>
 
-
-    
-
     
     <a-entity obj-model="obj: #Maniglie-obj;" material="color: #A5A5A5; metalness: 0.8;"></a-entity>
-    <a-collada-model static-body src="#muraIngresso"></a-collada-model>
-    <a-collada-model static-body src="#muraDestra"></a-collada-model>
-    <a-collada-model static-body src="#muraFondo"></a-collada-model>
-    <a-collada-model static-body src="#muraSinistraInizio"></a-collada-model>
+    <!--<a-entity obj-model="obj: #luci-obj;" material="color: #FFFFFF;"></a-entity>-->
+    <a-collada-model static-body src="#luci"></a-collada-model>
+    <a-obj-model static-body src="#pareteDestra-obj" mtl="#pareteDestra-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#pareteFondo-obj" mtl="#pareteFondo-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#pareteIngresso-obj" mtl="#pareteIngresso-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#pareteSinistraInizio-obj" mtl="#pareteSinistraInizio-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#pareteSinistraFondo-obj" mtl="#pareteSinistraFondo-mtl" materlai="shape: flat"></a-obj-model>
+
     <!--colonne-->
     <a-collada-model static-body src="#colonnaPareteDestra"></a-collada-model>
     <a-collada-model static-body src="#colonnaSinistra1"></a-collada-model>
@@ -135,19 +168,18 @@
     <a-collada-model static-body src="#colonnaSinistra3"></a-collada-model>
     <a-collada-model static-body src="#colonnaSinistra4"></a-collada-model>
     <!-- pareti cucina -->
-    <a-collada-model static-body src="#muraSinistraFondo"></a-collada-model>
-    <a-collada-model static-body src="#muraCucinaFondo"></a-collada-model>
-    <a-collada-model static-body src="#muraCucinaSinistra"></a-collada-model>
-    <a-collada-model static-body src="#muraCucinaInizio"></a-collada-model>
+    <a-obj-model static-body src="#pareteCucinaInizio-obj" mtl="#pareteCucinaInizio-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#pareteCucinaSinistra-obj" mtl="#pareteCucinaSinistra-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#pareteCucinaFondo-obj" mtl="#pareteCucinaFondo-mtl" materlai="shape: flat"></a-obj-model>
     <!-- pareti bagno -->
-    <a-collada-model static-body src="#pareteWcCentrale"></a-collada-model>
-    <a-collada-model static-body src="#pareteBagnoCentrale"></a-collada-model>
-    <a-collada-model static-body src="#pareteBagnoDestra"></a-collada-model>
-    <a-collada-model static-body src="#pareteBagnoInizio"></a-collada-model>
-    <a-collada-model static-body src="#pareteBagnoSinistra"></a-collada-model>
+    <a-obj-model static-body src="#pareteBagnoInizio-obj" mtl="#pareteBagnoInizio-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#pareteBagnoSinistra-obj" mtl="#pareteBagnoSinistra-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#pareteBagnoDestra-obj" mtl="#pareteBagnoDestra-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#pareteBagnoCentrale-obj" mtl="#pareteBagnoCentrale-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#pareteWcCentrale-obj" mtl="#pareteWcCentrale-mtl" materlai="shape: flat"></a-obj-model>
     <!-- pareti lavagna -->
-    <a-collada-model static-body src="#pareteLavagnaInizio"></a-collada-model>
-    <a-collada-model static-body src="#pareteLavagnaFine"></a-collada-model>
+    <a-obj-model static-body src="#pareteLavagnaInizio-obj" mtl="#pareteLavagnaInizio-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#pareteLavagnaFine-obj" mtl="#pareteLavagnaFine-mtl" materlai="shape: flat"></a-obj-model>
     <!-- pareti call e officina -->
     <a-collada-model static-body src="#pareteCall"></a-collada-model>
     <a-collada-model static-body src="#pareteOfficina"></a-collada-model>
@@ -157,6 +189,8 @@
     <a-collada-model static-body src="#alluminioInterno"></a-collada-model>
      <!-- alluminioEsterno -->
     <a-collada-model static-body src="#alluminioEsterno"></a-collada-model>
+    <!-- soffitto -->
+    <a-obj-model static-body src="#soffitto-obj" mtl="#soffitto-mtl" materlai="shape: flat"></a-obj-model>
  
 
     <!-- MOBILI FISSI -->
@@ -203,9 +237,9 @@
     <!--stanza lavagna-->
     <a-collada-model static-body src="#mobileLavagna"></a-collada-model>
     <!--lampade-->
-    <!--<a-collada-model src="#lampade"></a-collada-model>-->
+    <a-obj-model static-body src="#lampadeOfficina-obj" mtl="#lampadeOfficina-mtl" materlai="shape: flat"></a-obj-model>
     <!--logo evonove-->
-    <!--<a-collada-model static-body src="#evonoveLogo"></a-collada-model>-->
+    <a-obj-model static-body src="#evonoveLogo-obj" mtl="#evonoveLogo-mtl" materlai="shape: flat"></a-obj-model>
 
     <!--tastiere-->
     <a-collada-model  src="#tastiere"></a-collada-model>
@@ -214,7 +248,10 @@
     <!--seide-->
     <a-collada-model  src="#sedie"></a-collada-model>
     <!--quadri-->
-    <a-collada-model  src="#quadri"></a-collada-model>
+    <a-obj-model static-body src="#quadroOfficina-obj" mtl="#quadroOfficina-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#quadroRiunioni-obj" mtl="#quadroRiunioni-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#quadriIngresso-obj" mtl="#quadriIngresso-mtl" materlai="shape: flat"></a-obj-model>
+    <a-obj-model static-body src="#quadriUfficio-obj" mtl="#quadriUfficio-mtl" materlai="shape: flat"></a-obj-model>
 
     <!--prova ingresso-->
     <!--<a-collada-model static-body src="#provaIngresso"></a-collada-model>
